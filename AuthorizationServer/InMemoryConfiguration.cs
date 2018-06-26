@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityServer4;
 using IdentityServer4.Models;
@@ -73,6 +74,27 @@ namespace AuthorizationServer
                     },
                     AllowAccessTokensViaBrowser = true
                 }, 
+                new Client
+                {
+                    ClientId = "mvc_code",
+                    ClientName = "MVC Code Client",
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+                    RedirectUris = {$"http://{Configuration["Clients:MvcCodeClient:IP"]}:{Configuration["Clients:MvcCodeClient:Port"]}/signin-oidc" },
+                    PostLogoutRedirectUris = {$"http://{Configuration["Clients:MvcCodeClient:IP"]}:{Configuration["Clients:MvcCodeClient:Port"]}/signout-callback-oidc" },
+                    AllowedScopes = new List<string>
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "agentservice", "clientservice", "productservice"
+                    },
+                    AllowOfflineAccess = true,
+                    AllowAccessTokensViaBrowser = true
+                }
             };
         }
 
@@ -85,19 +107,31 @@ namespace AuthorizationServer
                 {
                     SubjectId = "10001",
                     Username = "edison@hotmail.com",
-                    Password = "edisonpassword"
+                    Password = "edisonpassword",
+                    Claims = new []
+                    {
+                        new Claim("email", "edison@hotmail.com"), 
+                    }
                 },
                 new TestUser
                 {
                     SubjectId = "10002",
                     Username = "andy@hotmail.com",
-                    Password = "andypassword"
+                    Password = "andypassword",
+                    Claims = new []
+                    {
+                        new Claim("email", "andy@hotmail.com"), 
+                    }
                 },
                 new TestUser
                 {
                     SubjectId = "10003",
                     Username = "leo@hotmail.com",
-                    Password = "leopassword"
+                    Password = "leopassword",
+                    Claims = new []
+                    {
+                        new Claim("email", "leo@hotmail.com"), 
+                    }
                 }
             };
         }
@@ -107,7 +141,8 @@ namespace AuthorizationServer
             return new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile()
+                new IdentityResources.Profile(),
+                new IdentityResources.Email()
             };
         }
     }
