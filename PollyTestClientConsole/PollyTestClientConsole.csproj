@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Foundatio" Version="7.0.1706" />
+    <PackageReference Include="WebApiClient.JIT" Version="0.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PollyDemos\PollyDemos.csproj" />
+  </ItemGroup>
+
+</Project>

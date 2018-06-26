@@ -1,0 +1,102 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53826
+        }
+      ],
+      "UpstreamPathTemplate": "/webapia/values",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53849
+        }
+      ],
+      "UpstreamPathTemplate": "/webapib/values",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53826
+        }
+      ],
+      "UpstreamPathTemplate": "/webapia/values/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRouteIsCaseSensitive": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53849
+        }
+      ],
+      "UpstreamPathTemplate": "/webapib/values/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetSex",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53826
+        }
+      ],
+      "UpstreamPathTemplate": "/Sex",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "Sex"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAge",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53826
+        }
+      ],
+      "UpstreamPathTemplate": "/Age",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "Age"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53826
+        }
+      ],
+      "UpstreamPathTemplate": "/Id",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "ID"
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "Sex",
+        "Age",
+        "ID"
+      ],
+      "UpstreamPathTemplate": "/GetUserInfo"
+    }
+  ]
+}
