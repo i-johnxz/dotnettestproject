@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
 using Microsoft.Extensions.Configuration;
@@ -32,7 +33,7 @@ namespace AuthorizationServer
                     ClientId = "client.api.service",
                     ClientSecrets = new[]
                     {
-                        new Secret("clientsecert".Sha256()),
+                        new Secret("clientsecret".Sha256()),
                     },
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPasswordAndClientCredentials,
                     AllowedScopes = new [] {"clientservice"}
@@ -56,6 +57,21 @@ namespace AuthorizationServer
                     },
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPasswordAndClientCredentials,
                     AllowedScopes = new [] {"agentservice", "clientservice", "productservice"}
+                }, 
+                new Client()
+                {
+                    ClientId = "cas.mvc.client.implicit",
+                    ClientName = "CAS MVC Web App Client",
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    RedirectUris = {$"http://{Configuration["Clients:MvcClient:IP"]}:{Configuration["Clients:MvcClient:Port"]}/signin-oidc"},
+                    PostLogoutRedirectUris = {$"http://{Configuration["Clients:MvcClient:IP"]}:{Configuration["Clients:MvcClient:Port"]}/signout-callback-oidc"},
+                    AllowedScopes = new []
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "agentservice", "clientservice", "productservice"
+                    },
+                    AllowAccessTokensViaBrowser = true
                 }, 
             };
         }
@@ -83,6 +99,15 @@ namespace AuthorizationServer
                     Username = "leo@hotmail.com",
                     Password = "leopassword"
                 }
+            };
+        }
+
+        public static IEnumerable<IdentityResource> GetIdentityResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile()
             };
         }
     }

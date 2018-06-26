@@ -30,6 +30,7 @@ namespace AuthorizationServer
             services.AddIdentityServer()
                     //.AddDeveloperSigningCredential()
                     .AddSigningCredential(new X509Certificate2(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _configuration["Certificates:CerPath"]), _configuration["Certificates:Password"]))
+                    .AddInMemoryIdentityResources(InMemoryConfiguration.GetIdentityResources())
                     .AddTestUsers(InMemoryConfiguration.GetUsers().ToList())
                     .AddInMemoryClients(InMemoryConfiguration.GetClients())
                     .AddInMemoryApiResources(InMemoryConfiguration.GetApiResources());
