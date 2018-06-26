@@ -56,6 +56,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCodeClient", "MvcCodeClient\MvcCodeClient.csproj", "{8BE1F51A-CC8A-4F30-8D42-6686A214CEB1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postmanjson", "postmanjson", "{15E1EC50-6C56-4CBC-B87F-A1E069CEF04E}"
+	ProjectSection(SolutionItems) = preProject
+		postmanjson\IdentityServer4.postman_collection.json = postmanjson\IdentityServer4.postman_collection.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -388,6 +393,7 @@ Global
 		{29FCD688-43A4-4A56-805E-5D48394FC09F} = {03B11D0C-A370-41A7-A752-D983F6CE18E4}
 		{4B958319-FF20-4076-9E45-09FC3E65F8AA} = {03B11D0C-A370-41A7-A752-D983F6CE18E4}
 		{8BE1F51A-CC8A-4F30-8D42-6686A214CEB1} = {03B11D0C-A370-41A7-A752-D983F6CE18E4}
+		{15E1EC50-6C56-4CBC-B87F-A1E069CEF04E} = {03B11D0C-A370-41A7-A752-D983F6CE18E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2AE500F-7C54-47DE-AFBA-7B5475FF4924}

@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "1a4fa6e3-1467-4d23-8ac6-89264cf9c3aa",
+		"name": "IdentityServer4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5010/api/values",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgwREFENTNFODYyQzgwQzQxMzg5MTU1NEU3RDExMUY3NTIxMEFDQzciLCJ0eXAiOiJKV1QiLCJ4NXQiOiJnTnJWUG9Zc2dNUVRpUlZVNTlFUjkxSVFyTWMifQ.eyJuYmYiOjE1Mjk5OTU2NzYsImV4cCI6MTUyOTk5OTI3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9yZXNvdXJjZXMiLCJjbGllbnRzZXJ2aWNlIl0sImNsaWVudF9pZCI6ImNsaWVudC5hcGkuc2VydmljZSIsInN1YiI6IjEwMDAxIiwiYXV0aF90aW1lIjoxNTI5OTk1Njc2LCJpZHAiOiJsb2NhbCIsInNjb3BlIjpbImNsaWVudHNlcnZpY2UiXSwiYW1yIjpbInB3ZCJdfQ.cM-iPwDgiz4gNSfQu4Xrv75kuM-dpDlf5WS8fLgSSyBmX0LrCG7Kf87lVt5oz6M5aiwWAM0SPn7m6JCnxwWQTiXCWcDxiJ1iLje6D1iartNwam0IdCoYf22VCCTi0xhp73-C4BWxSSe0Ecy32EdQO7mSbtNV5xodMvyn34iLMmxWCBkkwhM5vgVObiMohomUrDWyjGpDLHo2joEhgMrdWOYjx09JYR4UwBNqdqAG1zyhgy-d8ZknKuZ3-LCE4cub6kFXCv_hxwVKrPCV7Kan2hNCVN4bULUj-3Lr14lam79UJH7lPvw-LkhgpE4JkNB7HLmsmO3AU-swxu6a4Unr8w",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5010/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5010",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/connect/token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "client_id",
+							"value": "product.api.service",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "productsecret",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "edison@hotmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "edisonpassword",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5020/api/values",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgwREFENTNFODYyQzgwQzQxMzg5MTU1NEU3RDExMUY3NTIxMEFDQzciLCJ0eXAiOiJKV1QiLCJ4NXQiOiJnTnJWUG9Zc2dNUVRpUlZVNTlFUjkxSVFyTWMifQ.eyJuYmYiOjE1Mjk5OTQ2MTIsImV4cCI6MTUyOTk5ODIxMiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9yZXNvdXJjZXMiLCJjbGllbnRzZXJ2aWNlIl0sImNsaWVudF9pZCI6ImNsaWVudC5hcGkuc2VydmljZSIsInNjb3BlIjpbImNsaWVudHNlcnZpY2UiXX0.lfny2X1B-HBN6e3b8cBYq3kjg4BlsqS62eB0VPM7mBM1nH3CDPrFpg0OaARPAPMEgIFbkIBXNC59StaWJjJZ5GPZMiLgNoxCpZ5twyYhG2q9js2i-lXG38v1IRCBAD75f-BrT847_aLuU0yMX8PfFn-VILk6hkBucEIWOFKXG7-_avnOx0QhnngLVY5obJinjkPf2zxl8zE-voNVk6qB_c9DB-lpvghTUyq2CW_adw6CdpfQEpDPPgs-Qkwfag8D9mdyu0JiN3PAm8qFouY0qHHLBAeTYVIlRSzDTbC51PbJntPWhCn5wro8kWX21Cn2q_wWQF9yTRckzJIJm9R4xg",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5020/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5020",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/connect/token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "client_id",
+							"value": "client.api.service",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "clientsecret",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "edison@hotmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "edisonpassword",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/connect/token",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "client_id",
+							"value": "mvc_code",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "a0b03704466860b7169ce7285bf3038368f5004007b22f8fb0463083aaef9adb",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
