@@ -1,0 +1,5 @@
+﻿cmd>openssl req -newkey rsa:2048 -nodes -keyout cas.clientservice.key -x509 -days 365 -out cas.clientservice.cer
+
+下面将生成的证书和Key封装成一个文件，以便IdentityServer可以使用它们去正确地签名tokens
+
+cmd>openssl pkcs12 -export -in cas.clientservice.cer -inkey cas.clientservice.key -out cas.clientservice.pfx
