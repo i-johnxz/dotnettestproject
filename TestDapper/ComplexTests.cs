@@ -81,7 +81,7 @@ namespace TestDapper
 
         public class Address
         {
-            public int Id { get; set; }
+            public int AddressId { get; set; }
 
             public string StreetNumber { get; set; }
 

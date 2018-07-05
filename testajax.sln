@@ -69,11 +69,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testcachewebapi", "testcach
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{78703646-B6CA-4F36-BC12-A1A24E5FA622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedServicesQuartz", "HostedServicesQuartz\HostedServicesQuartz.csproj", "{0C3C49D0-DEF2-480E-98C7-DC55D7C4C9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostedServicesQuartz", "HostedServicesQuartz\HostedServicesQuartz.csproj", "{0C3C49D0-DEF2-480E-98C7-DC55D7C4C9B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hangfire", "Hangfire", "{7F38DF5B-52A4-4C06-A874-82C45A17CD82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireDemo", "HangfireDemo\HangfireDemo.csproj", "{E63A911F-0908-4802-A9DE-E09733FDD262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangfireDemo", "HangfireDemo\HangfireDemo.csproj", "{E63A911F-0908-4802-A9DE-E09733FDD262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerTet", "DockerTet", "{C1317EBA-DD4E-4119-823B-163F8A286122}"
+	ProjectSection(SolutionItems) = preProject
+		DockerTest\docker_dotnetcore.md = DockerTest\docker_dotnetcore.md
+		DockerTest\docker_elk.md = DockerTest\docker_elk.md
+		DockerTest\Dockerfile = DockerTest\Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
