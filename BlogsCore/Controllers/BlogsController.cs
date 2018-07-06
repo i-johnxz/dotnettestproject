@@ -21,7 +21,8 @@ namespace BlogsCore.Controllers
         // GET: Blogs
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Blogs.ToListAsync());
+            var list = await _context.Blogs.Include(s => s.Posts).ToListAsync();
+            return View(list);
         }
 
         // GET: Blogs/Details/5
@@ -53,7 +54,7 @@ namespace BlogsCore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BlogId,Url")] Blog blog)
+        public async Task<IActionResult> Create([Bind("BlogId,Url,Timestamp")] Blog blog)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +86,7 @@ namespace BlogsCore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("BlogId,Url")] Blog blog)
+        public async Task<IActionResult> Edit(int id, [Bind("BlogId,Url,Timestamp")] Blog blog)
         {
             if (id != blog.BlogId)
             {

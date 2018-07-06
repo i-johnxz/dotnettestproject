@@ -15,6 +15,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Url)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Timestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Posts)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -23,6 +29,15 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Timestamp)
+            </td>
+            <td>
+                @foreach (var post in item.Posts)
+                {
+                    <p>@post.Content</p>
+                }
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.BlogId">Edit</a> |
