@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20180706082743_InitalCreate.cs" />
+    <Compile Remove="Migrations\20180706082743_InitalCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180706085151_InitalCreate.cs" />
+    <Compile Remove="Migrations\20180706085151_InitalCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0" />

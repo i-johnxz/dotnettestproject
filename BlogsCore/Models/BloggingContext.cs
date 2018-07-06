@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BlogsCore.Models;
+using BlogsCore.Models.EntityTypeConfigurations;
 
 namespace BlogsCore.Models
 {
@@ -17,44 +18,21 @@ namespace BlogsCore.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Person>()
-                        .Property(p => p.LastName)
-                        .IsConcurrencyToken();
+            modelBuilder.ApplyConfiguration(new PersonEntityTypeConfiguration());
+
+            modelBuilder.ApplyConfiguration(new BlogEntityTypeConfiguration());
             
+            modelBuilder.ApplyConfiguration(new PostEntityTypeConfiguration());
 
-            modelBuilder.Entity<Blog>()
-                        .Property(p => p.Timestamp)
-                        .IsRowVersion();
-
-            modelBuilder.Entity<Blog>()
-                        .Property<DateTime>("LastUpdated");
-
+            modelBuilder.ApplyConfiguration(new CarEntityTypeConfiguration());
             
+            modelBuilder.ApplyConfiguration(new RecordOfSaleEntityTypeConfiguration());
+            
+            modelBuilder.ApplyConfiguration(new PostTagEntityTypeConfiguration());
 
-            modelBuilder.Entity<Post>()
-                        .HasOne(p => p.Blog)
-                        .WithMany(s => s.Posts)
-                        .HasForeignKey(s => s.BlogId)
-                        .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.ApplyConfiguration(new BankAccountEntityTypeConfiguration());
 
-            modelBuilder.Entity<Car>().HasKey(c => new { c.State, c.LicensePlate });
-            modelBuilder.Entity<RecordOfSale>()
-                        .HasOne(s => s.Car)
-                        .WithMany(c => c.SaleHistory)
-                        .HasForeignKey(s => new {s.CarState, s.CarLicensePlate});
-
-            modelBuilder.Entity<PostTag>()
-                        .HasKey(t => new {t.PostId, t.TagId});
-
-            modelBuilder.Entity<PostTag>()
-                        .HasOne(pt => pt.Post)
-                        .WithMany(p => p.PostTags)
-                        .HasForeignKey(pt => pt.PostId);
-
-            modelBuilder.Entity<PostTag>()
-                        .HasOne(pt => pt.Tag)
-                        .WithMany(t => t.PostTags)
-                        .HasForeignKey(pt => pt.TagId);
+            modelBuilder.ApplyConfiguration(new CreditCardEntityTypeConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
