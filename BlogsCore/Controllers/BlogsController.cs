@@ -25,6 +25,12 @@ namespace BlogsCore.Controllers
             return View(list);
         }
 
+        public async Task<IActionResult> BlogCount()
+        {
+            var list = await _context.BlogPostsCounts.ToListAsync();
+            return View(list);
+        }
+
         // GET: Blogs/Details/5
         public async Task<IActionResult> Details(int? id)
         {

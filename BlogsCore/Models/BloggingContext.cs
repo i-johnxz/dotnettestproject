@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BlogsCore.Models;
 using BlogsCore.Models.EntityTypeConfigurations;
+using BlogsCore.ViewModel;
 
 namespace BlogsCore.Models
 {
@@ -21,6 +22,8 @@ namespace BlogsCore.Models
             modelBuilder.ApplyConfiguration(new PersonEntityTypeConfiguration());
 
             modelBuilder.ApplyConfiguration(new BlogEntityTypeConfiguration());
+
+            modelBuilder.ApplyConfiguration(new BlogQueryTypeConfiguration());
             
             modelBuilder.ApplyConfiguration(new PostEntityTypeConfiguration());
 
@@ -34,16 +37,25 @@ namespace BlogsCore.Models
 
             modelBuilder.ApplyConfiguration(new CreditCardEntityTypeConfiguration());
 
+            modelBuilder.ApplyConfiguration(new OrderEntityTypeConfiguration());
+
+
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Blog> Blogs { get; set; }
+
+        public DbSet<RssBlog> RssBlogs { get; set; }
 
         public DbSet<Post> Posts { get; set; }
 
         public DbSet<Person> Persons { get; set; }
 
         public DbSet<BlogsCore.Models.PostTag> PostTag { get; set; }
+
+        public DbQuery<BlogPostsCount> BlogPostsCounts { get; set; }
+
+
 
     }
 }

@@ -13,6 +13,13 @@ namespace BlogsCore.Models.EntityTypeConfigurations
 
             builder.HasIndex(b => b.Url).IsUnique();
 
+            builder.HasDiscriminator<BlogType>("BlogType")
+                .HasValue<Blog>(BlogType.Basic)
+                .HasValue<RssBlog>(BlogType.Rss);
+
+            //builder.Property(e => e.BlogType)
+            //    //.HasMaxLength(200)
+            //    .HasColumnName("blog_type");
         }
     }
 }

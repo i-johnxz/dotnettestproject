@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BlogsCore.ViewModel.BlogPostsCount>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>BlogCount</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PostCount)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostCount)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
