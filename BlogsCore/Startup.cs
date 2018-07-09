@@ -33,7 +33,7 @@ namespace BlogsCore
             });
 
             var connection = Configuration.GetValue<string>("ConnectString");
-            services.AddDbContext<BloggingContext>(options => options
+            services.AddDbContextPool<BloggingContext>(options => options
                 //.UseLazyLoadingProxies()
                 .UseSqlServer(connection));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

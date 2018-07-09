@@ -1,24 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20180706082743_InitalCreate.cs" />
-    <Compile Remove="Migrations\20180706082743_InitalCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180706085151_InitalCreate.cs" />
-    <Compile Remove="Migrations\20180706085151_InitalCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180706085735_InitalCreate.cs" />
-    <Compile Remove="Migrations\20180706085735_InitalCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180709015214_InitialCreate.cs" />
-    <Compile Remove="Migrations\20180709015214_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180709015849_InitialCreate.cs" />
-    <Compile Remove="Migrations\20180709015849_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180709024205_InitialCreate.cs" />
-    <Compile Remove="Migrations\20180709024205_InitialCreate.Designer.cs" />
-    <Compile Remove="Migrations\20180709024820_InitialCreate.cs" />
-    <Compile Remove="Migrations\20180709024820_InitialCreate.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
