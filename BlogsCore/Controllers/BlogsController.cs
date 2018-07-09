@@ -21,7 +21,7 @@ namespace BlogsCore.Controllers
         // GET: Blogs
         public async Task<IActionResult> Index()
         {
-            var list = await _context.Blogs.Include(s => s.Posts).ToListAsync();
+            var list = await _context.Blogs.ToListAsync();
             return View(list);
         }
 
