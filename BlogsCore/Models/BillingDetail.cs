@@ -7,7 +7,7 @@ namespace BlogsCore.Models
 {
     public abstract class BillingDetail
     {
-        public int BillingDetailId { get; set; }
+        public int Id { get; set; }
 
         public string Owner { get; set; }
 

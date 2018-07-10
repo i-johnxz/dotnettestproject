@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20180709054757_InitailCreate.cs" />
+    <Compile Remove="Migrations\20180709054757_InitailCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180710012103_InitailCreate.cs" />
+    <Compile Remove="Migrations\20180710012103_InitailCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180710013342_InitailCreate.cs" />
+    <Compile Remove="Migrations\20180710013342_InitailCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180710013733_InitailCreate.cs" />
+    <Compile Remove="Migrations\20180710013733_InitailCreate.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

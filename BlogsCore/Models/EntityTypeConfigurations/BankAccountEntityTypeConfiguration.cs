@@ -11,7 +11,6 @@ namespace BlogsCore.Models.EntityTypeConfigurations
     {
         public void Configure(EntityTypeBuilder<BankAccount> builder)
         {
-            builder.HasKey(c => c.BillingDetailId);
             builder.ToTable("BankAccounts");
         }
     }

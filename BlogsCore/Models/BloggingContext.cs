@@ -54,7 +54,10 @@ namespace BlogsCore.Models
         public DbSet<BlogsCore.Models.PostTag> PostTag { get; set; }
 
         public DbQuery<BlogPostsCount> BlogPostsCounts { get; set; }
+        
+        public DbSet<BankAccount> BankAccounts { get; set; }
 
+        public DbSet<CreditCard> CreditCards { get; set; }
 
 
     }

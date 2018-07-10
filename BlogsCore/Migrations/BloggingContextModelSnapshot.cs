@@ -21,7 +21,7 @@ namespace BlogsCore.Migrations
 
             modelBuilder.Entity("BlogsCore.Models.BankAccount", b =>
                 {
-                    b.Property<int>("BillingDetailId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -33,7 +33,7 @@ namespace BlogsCore.Migrations
 
                     b.Property<string>("Swift");
 
-                    b.HasKey("BillingDetailId");
+                    b.HasKey("Id");
 
                     b.ToTable("BankAccounts");
                 });
@@ -84,7 +84,7 @@ namespace BlogsCore.Migrations
 
             modelBuilder.Entity("BlogsCore.Models.CreditCard", b =>
                 {
-                    b.Property<int>("BillingDetailId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -98,7 +98,7 @@ namespace BlogsCore.Migrations
 
                     b.Property<string>("Owner");
 
-                    b.HasKey("BillingDetailId");
+                    b.HasKey("Id");
 
                     b.ToTable("CreditCards");
                 });
