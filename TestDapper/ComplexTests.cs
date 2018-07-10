@@ -50,7 +50,7 @@ namespace TestDapper
         public async Task Test_ComplexObjectAsync()
         {
             string sql =
-                @"select p.Id, p.FirstName,p.LastName,a.Id as AddressId, a.StreetNumber,a.StreetName,a.City,a.State
+                @"select p.*, a.*
                   from People p 
                   inner join Addresses a on p.AddressId = a.Id";
             var query = await connection.QueryAsync<Person, Address, Person>(sql, (person, address) =>
@@ -81,7 +81,7 @@ namespace TestDapper
 
         public class Address
         {
-            public int AddressId { get; set; }
+            public int Id { get; set; }
 
             public string StreetNumber { get; set; }
 
