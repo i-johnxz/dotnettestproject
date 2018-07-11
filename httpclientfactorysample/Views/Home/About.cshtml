@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+@model IEnumerable<GitHubPullRequest>
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+@foreach (var item in Model)
+{
+    <p>@item</p>
+}
+
+<p>Use this area to provide additional information.</p>
+

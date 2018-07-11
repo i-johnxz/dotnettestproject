@@ -16,6 +16,7 @@ namespace EfCoreTransactionExampleTest
 
         public DbSet<Blog> Blogs { get; set; }
 
+        public DbSet<RssBlog> RssBlogs { get; set; }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -30,5 +31,10 @@ namespace EfCoreTransactionExampleTest
 
         public string Url { get; set; }
 
+    }
+
+    public class RssBlog : Blog
+    {
+        public string Rss { get; set; }
     }
 }
