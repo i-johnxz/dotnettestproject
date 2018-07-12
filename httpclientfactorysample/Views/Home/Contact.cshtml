@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-@model IEnumerable<GitHubIssue>
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
@@ -12,15 +11,6 @@
     425.555.0100
 </address>
 
-@foreach (var item in Model)
-{
-<ul>
-    <li>@item.Title</li>
-    <li>@item.Url</li>
-    <li>@item.Created</li>
-</ul>
-    
-}
 
 <address>
     <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />

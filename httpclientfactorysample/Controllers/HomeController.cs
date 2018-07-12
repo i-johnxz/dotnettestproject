@@ -18,12 +18,19 @@ namespace httpclientfactorysample.Controllers
         //{
         //    _clientFactory = clientFactory;
         //}
-        private readonly GitHubService _gitHubService;
+        //private readonly GitHubService _gitHubService;
 
-        public HomeController(GitHubService gitHubService)
-        {
-            _gitHubService = gitHubService;
-        }
+        //public HomeController(GitHubService gitHubService)
+        //{
+        //    _gitHubService = gitHubService;
+        //}
+
+        //private readonly RepoService _repoService;
+
+        //public HomeController(RepoService repoService)
+        //{
+        //    _repoService = repoService;
+        //}
 
 
         public IActionResult Index()
@@ -74,13 +81,11 @@ namespace httpclientfactorysample.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Contact()
+        public IActionResult Contact()
         {
-            var latestIssues = await _gitHubService.GetAspNetDocsIssues();
-
             ViewData["Message"] = "Your contact page.";
-
-            return View(latestIssues);
+            
+            return View();
         }
 
         public IActionResult Privacy()

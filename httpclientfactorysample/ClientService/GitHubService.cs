@@ -16,7 +16,7 @@ namespace httpclientfactorysample.ClientService
             client.BaseAddress = new Uri("https://api.github.com");
             client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
             client.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-Sample");
-
+            
 
             Client = client;
         }
