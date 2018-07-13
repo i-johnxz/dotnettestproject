@@ -15,18 +15,35 @@ namespace httpclientfactorysample.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly IHelloClient _client;
+        //private readonly IHelloClient _client;
 
-        public ValuesController(IHelloClient client)
+        //public ValuesController(IHelloClient client)
+        //{
+        //    _client = client;
+        //}
+
+
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public ValuesController(IHttpClientFactory httpClientFactory)
         {
-            _client = client;
+            _httpClientFactory = httpClientFactory;
         }
 
         [HttpGet]
-        public async Task<Reply> Get()
+        public Reply Get()
         {
-            var message = await _client.GetMessageAsync();
-            return message;
+            //var message = await _client.GetMessageAsync();
+            //return message;
+
+            var test = _httpClientFactory.CreateClient("test");
+            using (var client = _httpClientFactory.CreateClient())
+            {
+                    
+            }
+
+            return new Reply();
+
             //var _client = RestService.For<IHelloClient>("http://localhost:5000", new RefitSettings
             //{
             //    HttpMessageHandlerFactory = HttpMessageHandlerFactory
