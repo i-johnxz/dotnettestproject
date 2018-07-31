@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace OptimizationProject
@@ -107,6 +108,36 @@ namespace OptimizationProject
     {
         IAccountDiscountCalculator GetAccountDiscountCalculator(AccountStatus accountStatus);
     }
+
+    public class ConfigurableLazyAccountDiscountCalculatorFactory : IAccountDiscountCalculatorFactory
+    {
+
+        private readonly Dictionary<AccountStatus, Lazy<IAccountDiscountCalculator>> _discountDictionary;
+
+        public ConfigurableLazyAccountDiscountCalculatorFactory(Dictionary<AccountStatus, Type> discountDictionary)
+        {
+            _discountDictionary = ConvertStringDictToObjectsDict(discountDictionary);
+        }
+
+        public IAccountDiscountCalculator GetAccountDiscountCalculator(AccountStatus accountStatus)
+        {
+            if (!_discountDictionary.TryGetValue(accountStatus, out var calculator))
+            {
+                throw new NotImplementedException("There is no implementation of IAccountDiscountCalculatorFactory interface for given Account Status");
+            }
+
+            return calculator.Value;
+        }
+
+        private Dictionary<AccountStatus, Lazy<IAccountDiscountCalculator>> ConvertStringDictToObjectsDict(
+            Dictionary<AccountStatus, Type> dict)
+        {
+            return dict.ToDictionary(x => x.Key,
+                x => new Lazy<IAccountDiscountCalculator>(() =>
+                    (IAccountDiscountCalculator) Activator.CreateInstance(x.Value)));
+        }
+    }
+
 
     public class DefaultAccountDiscountCalculatorFactory : IAccountDiscountCalculatorFactory
     {
