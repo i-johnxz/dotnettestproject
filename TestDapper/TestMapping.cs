@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -142,6 +143,28 @@ namespace TestDapper
             }
         }
 
+        public static void RemoveTypeMap<TComplexType>()
+        {
+            RemoveTypeMap(typeof(TComplexType));
+        }
+
+
+        public static void SetTypeMaps(Type[] complexTypes)
+        {
+            foreach (var complexType in complexTypes)
+            {
+                SetTypeMap(complexType);
+            }
+        }
+
+        public static void RemoveTypes(Type[] complexTypes)
+        {
+            foreach (var complexType in complexTypes)
+            {
+                RemoveTypeMap(complexType);
+            }
+        }
+
         public static void SetTypeMap(Type complexType)
         {
             SqlMapper.SetTypeMap(complexType,
@@ -149,9 +172,15 @@ namespace TestDapper
                     (type, columnName) =>
                     {
                         var test = type.GetProperties()
-                            .FirstOrDefault(prop => columnName.EndsWith($"_{prop.Name}"));
+                            .FirstOrDefault(prop => columnName.EndsWith($"_{prop.Name}") || columnName.EndsWith($"{prop.Name}"));
                         return test;
                     }));
+        }
+
+        public static void RemoveTypeMap(Type complexType)
+        {
+            
+            SqlMapper.RemoveTypeMap(complexType);
         }
     }
 

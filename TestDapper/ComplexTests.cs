@@ -92,20 +92,20 @@ namespace TestDapper
             public string State { get; set; }
 
         }
-        
-        public static class DataProviderExtension
-    {
 
-        public static void SetTypeMap<TComplexType>()
+        public static class DataProviderExtension
         {
-            SqlMapper.SetTypeMap(typeof(TComplexType),
-                new CustomPropertyTypeMap(typeof(TComplexType),
-                    (type, columnName) => type.GetProperties()
-                        .FirstOrDefault(prop => columnName.EndsWith($"_{prop.Name}"))));
+
+            public static void SetTypeMap<TComplexType>()
+            {
+                SqlMapper.SetTypeMap(typeof(TComplexType),
+                    new CustomPropertyTypeMap(typeof(TComplexType),
+                        (type, columnName) => type.GetProperties()
+                            .FirstOrDefault(prop => columnName.EndsWith($"_{prop.Name}"))));
+            }
+
         }
-        
     }
-    }
-    
-    
+
+
 }
