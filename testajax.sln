@@ -114,7 +114,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaRASPNETCOREDemo", "Med
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagePack", "MessagePack", "{75510E42-D018-4F4A-975D-0C04E1F6ABC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePackDemo", "MessagePackDemo\MessagePackDemo.csproj", "{5491714E-082D-45B9-AB18-D41E8499E9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePackDemo", "MessagePackDemo\MessagePackDemo.csproj", "{5491714E-082D-45B9-AB18-D41E8499E9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VueDemo", "VueDemo", "{7FD9E907-790E-407D-8CC6-9D17C00CBEF7}"
+	ProjectSection(SolutionItems) = preProject
+		VueDemo\app.vue = VueDemo\app.vue
+		VueDemo\index.html = VueDemo\index.html
+		VueDemo\index2.html = VueDemo\index2.html
+		VueDemo\index3.html = VueDemo\index3.html
+		VueDemo\index4.html = VueDemo\index4.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
