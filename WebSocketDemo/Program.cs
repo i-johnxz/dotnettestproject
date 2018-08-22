@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace WebSocketDemo
 {
@@ -8,7 +10,12 @@ namespace WebSocketDemo
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CreateWebHostBuilder(args).Build().Run();
         }
+
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) => 
+            WebHost.CreateDefaultBuilder(args)
+                   .UseStartup<Startup>()
+                   .UseEnvironment("Development");
     }
 }
