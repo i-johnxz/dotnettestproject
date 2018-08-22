@@ -30,7 +30,10 @@ namespace TokenWebTest.Controllers
         [HttpPost("message/chaApply")]
         public ChaApplyResult ChaApply(ChaApplyRequest request)
         {
-            return new ChaApplyResult();
+            return new ChaApplyResult()
+            {
+                ReturnCode = "SUCCESS"
+            };
         }
     }
 }
