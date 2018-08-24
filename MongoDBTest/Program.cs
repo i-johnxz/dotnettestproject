@@ -18,6 +18,7 @@ namespace MongoDBTest
             {"BGB", "广西北部湾银行"},
             {"SHRCB", "上海农村商业银行"},
             {"BJBANK", "北京银行"},
+            {"BOB", "北京银行"},
             {"WHCCB", "威海市商业银行"},
             {"BOZK", "周口银行"},
             {"KORLABANK", "库尔勒市商业银行"},
@@ -108,6 +109,7 @@ namespace MongoDBTest
             {"SCCB", "三门峡银行"},
             {"CSRCB", "常熟农村商业银行"},
             {"SHBANK", "上海银行"},
+            {"SHB", "上海银行"},
             {"JLBANK", "吉林银行"},
             {"CZRCB", "常州农村信用联社"},
             {"BANKWF", "潍坊银行"},
@@ -126,9 +128,11 @@ namespace MongoDBTest
             {"FSCB", "抚顺银行"},
             {"HNRCU", "河南省农村信用"},
             {"COMM", "交通银行"},
+            {"BCOM", "交通银行"},
             {"XTB", "邢台银行"},
             {"CITIC", "中信银行"},
             {"HXBANK", "华夏银行"},
+            {"HXB", "华夏银行"},
             {"HNRCC", "湖南省农村信用社"},
             {"DYCCB", "东营市商业银行"},
             {"ORBANK", "鄂尔多斯银行"},
@@ -178,13 +182,34 @@ namespace MongoDBTest
             {"TCCB", "天津银行"},
             {"WJRCB", "吴江农商银行"},
             {"CBBQS", "城市商业银行资金清算中心"},
-            {"HBRCU", "河北省农村信用社"}
+            {"HBRCU", "河北省农村信用社"},
+            {"PAB", "平安银行"}
+        };
 
+        private static readonly string[] supportBankCodes = new string[]
+        {
+            "ABC",
+            "BCOM",
+            "BOB",
+            "BOC",
+            "CCB",
+            "CEB",
+            "CIB",
+            "CITIC",
+            "CMB",
+            "CMBC",
+            "GDB",
+            "HXB",
+            "ICBC",
+            "PAB",
+            "PSBC",
+            "SHB",
+            "SPDB"
         };
 
         static void Main(string[] args)
         {
-            BsonClassMap.RegisterClassMap<BankPrefix>(cm =>
+            BsonClassMap.RegisterClassMap<Bank>(cm =>
             {
                 cm.AutoMap();
             });
@@ -253,12 +278,47 @@ namespace MongoDBTest
 
 
             var collection = DataBase.GetCollection<Bank>(nameof(Bank));
-            foreach (var bankinfo in _banks)
-            {
-                var bank = new Bank(bankinfo.Key, bankinfo.Value);
-                collection.InsertOne(bank);
-            }
-            
+            //foreach (var bankinfo in _banks)
+            //{
+            //    //var filter = Builders<Bank>.Filter.Eq(s => s.Name, bankinfo.Value);
+
+            //    //var bank = collection.Find(filter).FirstOrDefault() ?? new Bank(bankinfo.Value, false);
+
+            //    //bank.AddCode(bankinfo.Key);
+
+            //    //collection.ReplaceOne(filter, bank, new UpdateOptions()
+            //    //{
+            //    //    IsUpsert = true
+            //    //});
+
+            //    var bank = new Bank(bankinfo.Key, bankinfo.Value, false);
+
+            //    collection.InsertOne(bank);
+            //}
+
+
+            //foreach (var supportBankCode in supportBankCodes)
+            //{
+            //    var filter = Builders<Bank>.Filter.Eq(s => s.Code, supportBankCode);
+            //    var bank = collection.Find(filter).FirstOrDefault();
+            //    if (bank != null)
+            //    {
+            //        bank.Modify(true);
+            //        collection.ReplaceOne(filter, bank, new UpdateOptions()
+            //        {
+            //            IsUpsert = true
+            //        });
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(supportBankCode);
+            //    }
+            //}
+
+            var buidler = Builders<Bank>.Filter.Empty;
+
+            var s = collection.Find(buidler).ToList();
+
 
             //var buidler = Builders<BankPrefix>.Filter.ElemMatch(bp => bp.Prefixs, s => s == "12312321");
             //var query = collection.Find(s => s.Prefixs.Any(i => i == "123123")).FirstOrDefault();
@@ -323,20 +383,25 @@ namespace MongoDBTest
 
         }
 
-        public Bank(string code, string name)
+        public Bank(string code, string name, bool support)
         {
             Code = code;
             Name = name;
+            Support = support;
         }
 
+        public void Modify(bool support)
+        {
+            this.Support = support;
+        }
 
-        
         [BsonId]
         public string Code { get; protected set; }
 
         public string Name { get; protected set; }
 
-
+        public bool Support { get; protected set; }
+        
 
     }
 }
