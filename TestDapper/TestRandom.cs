@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -33,8 +34,13 @@ namespace TestDapper
             var test = JsonConvert.SerializeObject(model);
             _output.WriteLine(test);
         }
-
         
+        [Fact]
+        public void Test_Time()
+        {
+            var date = DateTime.Now + TimeSpan.FromMinutes(1.5);
+            _output.WriteLine(date.ToString(CultureInfo.InvariantCulture));
+        }
     }
 
     public static class StringExstion
