@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using Xunit;
 using Xunit.Abstractions;
@@ -40,6 +41,21 @@ namespace TestDapper
         {
             var date = DateTime.Now + TimeSpan.FromMinutes(1.5);
             _output.WriteLine(date.ToString(CultureInfo.InvariantCulture));
+        }
+
+        [Fact]
+        public void Test_Mask()
+        {
+            var cardNumber = "6212263134679235544";
+
+            var firstDigits = cardNumber.Substring(0, 7);
+            var lastDigits = cardNumber.Substring(cardNumber.Length - 4, 4);
+
+            var requiredMask = new string('*', cardNumber.Length - firstDigits.Length - lastDigits.Length);
+
+            var maskedString = string.Concat(firstDigits, requiredMask, lastDigits);
+            var maskedCardNumberWithSpaces = Regex.Replace(maskedString, ".{4}", "$0 ");
+            _output.WriteLine(maskedCardNumberWithSpaces);
         }
     }
 

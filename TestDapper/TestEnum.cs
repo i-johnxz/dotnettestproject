@@ -16,7 +16,7 @@ namespace TestDapper
             var result = loanStatus > LoanStatus.Released;
         }
     }
-    
+
     public enum LoanStatus
     {
         /// <summary>
