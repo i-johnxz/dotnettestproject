@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IFramework.DependencyInjection.Autofac" Version="2.0.0-prelease-0007" />
-    <PackageReference Include="IFramework.EntityFrameworkCore" Version="2.0.0-prelease-0016" />
+    <PackageReference Include="IFramework.DependencyInjection.Autofac" Version="2.0.0-prelease-0008" />
+    <PackageReference Include="IFramework.EntityFrameworkCore" Version="2.0.0-prelease-0018" />
     <PackageReference Include="IFramework.JsonNet" Version="2.0.0-prelease-0002" />
-    <PackageReference Include="IFramework.Log4Net" Version="2.0.0-prelease-0011" />
-    <PackageReference Include="IFramework.MessageQueue.ConfluentKafka" Version="2.0.0-prelease-0010" />
-    <PackageReference Include="IFramework.MessageStores.Relational" Version="2.0.0-prelease-0011" />
+    <PackageReference Include="IFramework.Log4Net" Version="2.0.0-prelease-0012" />
+    <PackageReference Include="IFramework.MessageQueue.ConfluentKafka" Version="2.0.0-prelease-0011" />
+    <PackageReference Include="IFramework.MessageStores.Relational" Version="2.0.0-prelease-0014" />
     <PackageReference Include="Log4Net.Async.Standard" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
