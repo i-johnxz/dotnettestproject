@@ -106,6 +106,79 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optimization", "Optimizatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptimizationProject", "OptimizationProject\OptimizationProject.csproj", "{247CDDE7-6C93-4096-BD24-009A60108008}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatR", "MediatR", "{00A910A5-6EA3-4935-98A3-B11FCB726E97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaRDemo", "MediaRDemo\MediaRDemo.csproj", "{2002ADA9-0CA2-4089-BA4C-1F405C1CC64F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaRASPNETCOREDemo", "MediaRASPNETCOREDemo\MediaRASPNETCOREDemo.csproj", "{3A013C8B-3978-404A-B257-64E85441B090}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagePack", "MessagePack", "{75510E42-D018-4F4A-975D-0C04E1F6ABC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePackDemo", "MessagePackDemo\MessagePackDemo.csproj", "{5491714E-082D-45B9-AB18-D41E8499E9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VueDemo", "VueDemo", "{7FD9E907-790E-407D-8CC6-9D17C00CBEF7}"
+	ProjectSection(SolutionItems) = preProject
+		VueDemo\app.vue = VueDemo\app.vue
+		VueDemo\index.html = VueDemo\index.html
+		VueDemo\index2.html = VueDemo\index2.html
+		VueDemo\index3.html = VueDemo\index3.html
+		VueDemo\index4.html = VueDemo\index4.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{61350A81-7721-44A9-BA1F-A1CD3B8B34E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicProduerExample", "BasicProduerExample\BasicProduerExample.csproj", "{97617BE2-39EB-409B-B0CE-7AE2B10B4BDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicConsumerExample", "BasicConsumerExample\BasicConsumerExample.csproj", "{EE30EF4C-CB0A-4061-BC81-3CAA2BC9CFA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refit", "Refit", "{808658D4-BD3A-43B1-918E-CC82C5E33598}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitDemo", "RefitDemo\RefitDemo.csproj", "{7D21C72A-0764-400D-BC31-951E5356E014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{593168E5-EDEE-46BF-8DD9-3F926DF0CC73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBTest", "MongoDBTest\MongoDBTest.csproj", "{BE8455E4-658B-45B0-8C6B-5D6DE3EA4BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSockets", "WebSockets", "{99A5EF00-A986-44B4-A1F3-FBA0D184D9CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketDemo", "WebSocketDemo\WebSocketDemo.csproj", "{394D749B-6A4B-4B01-B41A-53EB49EC77F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TokenTest", "TokenTest", "{ABE949B0-FD8C-49A3-B407-F1749EFB98DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenTestDemo", "TokenTestDemo\TokenTestDemo.csproj", "{5CAC3342-70FF-4E52-A24D-B7D53E0D730D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenWebTest", "TokenWebTest\TokenWebTest.csproj", "{F7AB5BA6-F2E2-465E-95E8-3D7FB10BC5CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketDemo2", "WebSocketDemo2\WebSocketDemo2.csproj", "{2E4C71B3-AE7A-4E01-8E74-4797BE0C1A30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketDemo3", "WebSocketDemo3\WebSocketDemo3.csproj", "{10A3630C-3F1B-4625-AB3F-F55D61235DF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketDemo5", "WebSocketDemo5\WebSocketDemo5.csproj", "{440E56D1-9A8E-4384-8532-8076458363F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitDemo2", "RefitDemo2\RefitDemo2.csproj", "{F8BE4119-1CBD-41D3-8AFB-00814D851482}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitDemo3", "RefitDemo3\RefitDemo3.csproj", "{95E6DCBF-AD86-4E6F-8F2A-750331A1390E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlKata", "SqlKata", "{B3960EED-0FA4-4C84-9DB2-01AB0D021D53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlKataDemo", "SqlKataDemo\SqlKataDemo.csproj", "{57C3C7D3-94FF-43F7-B5FF-324ABEC0914A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSentEvents", "ServerSentEvents", "{7DCD05B5-D9C3-4C75-98E8-2061C96E10DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSentEventsDemo", "ServerSentEventsDemo\ServerSentEventsDemo.csproj", "{0E0FC648-D390-4702-A314-EB922E906974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FundatioTest", "FundatioTest", "{3A99A6D7-2FB2-4571-BD88-4F90E5714834}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoundatioDemo", "FoundatioDemo\FoundatioDemo.csproj", "{9B115379-B02F-4569-AC0C-203A1847377A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Disruptor", "Disruptor", "{66EBDCE4-75C9-4CE8-89BC-52169228340D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisruptorDemo", "DisruptorDemo\DisruptorDemo.csproj", "{1A25C656-9480-48E1-8156-4A66109110E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IFramework", "IFramework", "{57BD0749-ACC3-4EAB-8517-320979CBE737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFrameworkDemo", "IFrameworkDemo\IFrameworkDemo.csproj", "{B9D12172-FB3F-4C77-81D1-9F092B61B41A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizationWeb", "OptimizationWeb\OptimizationWeb.csproj", "{85BBE0B4-59A0-491C-B570-1BD05DD08130}"
 EndProject
 Global
@@ -586,18 +659,6 @@ Global
 		{247CDDE7-6C93-4096-BD24-009A60108008}.Release|x64.Build.0 = Release|Any CPU
 		{247CDDE7-6C93-4096-BD24-009A60108008}.Release|x86.ActiveCfg = Release|Any CPU
 		{247CDDE7-6C93-4096-BD24-009A60108008}.Release|x86.Build.0 = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|x64.Build.0 = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Debug|x86.Build.0 = Debug|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|x64.ActiveCfg = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|x64.Build.0 = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|x86.ActiveCfg = Release|Any CPU
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -621,7 +682,6 @@ Global
 		{0B337311-3D13-4032-AB9E-30012311E1F7} = {27F162BD-1EAD-4D23-8F36-C76E169FE17C}
 		{D567088F-465B-44E3-B0EC-230C021DB0E6} = {27F162BD-1EAD-4D23-8F36-C76E169FE17C}
 		{247CDDE7-6C93-4096-BD24-009A60108008} = {503B933F-FFCC-4DE9-9D54-488A8CC0F661}
-		{85BBE0B4-59A0-491C-B570-1BD05DD08130} = {503B933F-FFCC-4DE9-9D54-488A8CC0F661}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2AE500F-7C54-47DE-AFBA-7B5475FF4924}
