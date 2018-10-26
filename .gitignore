@@ -65,3 +65,5 @@ UCosmic.Www.Mvc.Publish.xml
 
 #Ignore private folder
 /Private/
+.vs/testajax/v15/Server/sqlite3/storage.ide-shm
+.vs/testajax/v15/Server/sqlite3/storage.ide-wal
