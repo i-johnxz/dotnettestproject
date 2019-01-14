@@ -12,7 +12,34 @@ namespace TagHelperDemo.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var result = new Result
+            {
+                Persons = new List<Person>()
+                {
+                    new Person()
+                    {
+                        FirstName = "Autumn",
+                        LastName = "Gomes",
+                        Age = 11,
+                        EmailAddress = "Michelle.Tellies@gmx.com"
+                    },
+                    new Person()
+                    {
+                        FirstName = "Grace",
+                        LastName = "Cox",
+                        Age = 26,
+                        EmailAddress = "Jillian.Russell@gmx.com"
+                    },
+                    new Person()
+                    {
+                        FirstName = "Angel",
+                        LastName = "Gonzalez",
+                        Age = 7,
+                        EmailAddress = "Emma.Getzlaff@rogers.ca"
+                    }
+                }
+            };
+            return View(result);
         }
 
         public IActionResult Privacy()
