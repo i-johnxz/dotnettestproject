@@ -26,6 +26,8 @@ Thumbs.db
 *.vs
 .vs
 obj/
+.vs/
+.vs
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
@@ -66,5 +68,3 @@ UCosmic.Www.Mvc.Publish.xml
 
 #Ignore private folder
 /Private/
-.vs/testajax/v15/Server/sqlite3/storage.ide-shm
-.vs/testajax/v15/Server/sqlite3/storage.ide-wal

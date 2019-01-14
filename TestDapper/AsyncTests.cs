@@ -15,6 +15,16 @@ using Xunit.Abstractions;
 
 namespace TestDapper
 {
+    public class TestA
+    {
+        public long? OrganizationId { get; set; }
+
+        public string Email { get; set; }
+
+        public long? OrganizationNumber { get; set; }
+    }
+
+
     public class AsyncTests : TestBase
     {
         private readonly ITestOutputHelper _output;
@@ -30,14 +40,32 @@ namespace TestDapper
         [Fact]
         public async Task TestBasicStringUsageAsync()
         {
-            var query = await connection
-                .QueryAsync<string>("select 'abc' as [Value] union all select @txt", new { txt = "def" })
-                .ConfigureAwait(false);
+            //var query = await connection
+            //    .QueryAsync<string>("select 'abc' as [Value] union all select @txt", new { txt = "def" })
+            //    .ConfigureAwait(false);
 
-            var arr = query.ToArray();
+            //var arr = query.ToArray();
 
-            Assert.Equal(new[] { "abc", "def" }, arr);
+            //Assert.Equal(new[] { "abc", "def" }, arr);
+            var query = await connection.QueryFirstOrDefaultAsync<TestA>($"SELECT OrganizationId, Email, OrganizationNumber FROM Applicants where MemberId = 123");
+            var a = query;
         }
+
+        [Fact]
+        public async Task Test_Sync()
+        {
+            var result = await connection.ExecuteAsync(@"
+update AppTasks
+  set [Description] = @Description
+  where Id = @Id", new
+            {
+                Description = "AAAAAAA",
+                Id = 1
+            });
+
+            _output.WriteLine(result.ToString());
+        }
+
 
         [Fact]
         public async Task TestBasicStringUsageQueryFirstAsync()

@@ -1,0 +1,6 @@
+{"host":"LL-04-D043","hostIp":"10.100.6.22","app":"IFramwork.Mediator","logger":"IFramwork.Mediator.Demo.Startup","logLevel":"INFO","time":"2019-01-04T15:03:45.6207811+08:00","thread":"1","data":"Startup configured env: Development"}
+
+{"host":"LL-04-D043","hostIp":"10.100.6.22","app":"IFramwork.Mediator","logger":"IFramwork.Mediator.Demo.Startup","logLevel":"INFO","time":"2019-01-04T15:06:22.5862178+08:00","thread":"1","data":"Startup configured env: Development"}
+
+{"host":"LL-04-D043","hostIp":"10.100.6.22","app":"IFramwork.Mediator","logger":"IFramwork.Mediator.Demo.Startup","logLevel":"INFO","time":"2019-01-04T15:19:02.8341232+08:00","thread":"1","data":"Startup configured env: Development"}
+

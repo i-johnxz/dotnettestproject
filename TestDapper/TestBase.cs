@@ -13,7 +13,7 @@ namespace TestDapper
     {
 
         public static string ConnectionString =>
-            @"Server=(localdb)\projects;Database=TestDb;Integrated Security=true;";
+            @"Server=(localdb)\projects;Database=SimpleTaskSystemDb;Integrated Security=true;";
 
         protected SqlConnection _connection;
 

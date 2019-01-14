@@ -1,0 +1,2 @@
+{"host":"LL-04-D043","hostIp":"10.100.6.22","app":"IFramwork.Mediator","logger":"IFramwork.Mediator.Demo.Controllers.ValuesController","logLevel":"DEBUG","time":"2019-01-04T14:54:20.5586134+08:00","thread":"15","data":"{\"scopeMessages\":[{\"ConnectionId\":\"0HLJI25LRRHLN\"},{\"RequestId\":\"0HLJI25LRRHLN:00000003\",\"RequestPath\":\"/api/values\",\"CorrelationId\":null},{\"ActionId\":\"9f88b2a5-b31b-45a0-9a0e-2a37c6dabd41\",\"ActionName\":\"IFramwork.Mediator.Demo.Controllers.ValuesController.Get (IFramwork.Mediator.Demo)\"}],\"body\":\"test get\"}"}
+
