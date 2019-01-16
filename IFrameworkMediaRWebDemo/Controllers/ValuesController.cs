@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IFrameworkMediaRWebDemo.Models;
+using IFrameworkMediaRWebDemo.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -13,10 +15,13 @@ namespace IFrameworkMediaRWebDemo.Controllers
     {
 
         private readonly ILogger _logger;
+        private readonly IDemoService _demoService;
 
-        public ValuesController(ILogger<ValuesController> logger)
+        public ValuesController(ILogger<ValuesController> logger, 
+                                IDemoService demoService)
         {
             _logger = logger;
+            _demoService = demoService;
         }
 
         // GET api/values
@@ -36,8 +41,9 @@ namespace IFrameworkMediaRWebDemo.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Task<PostResult> Post([FromBody] CreatePostModel request)
         {
+            return _demoService.PostResult(request);
         }
 
         // PUT api/values/5

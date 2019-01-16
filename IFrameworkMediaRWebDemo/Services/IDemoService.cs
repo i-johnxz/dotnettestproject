@@ -8,6 +8,6 @@ namespace IFrameworkMediaRWebDemo.Services
 {
     public interface IDemoService
     {
-        Task<bool> CreatePost(CreatePostModel createPostModel);
+        Task<PostResult> PostResult(CreatePostModel createPostModel);
     }
 }

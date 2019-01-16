@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MessagePack.AspNetCoreMvcFormatter;
+using MessagePack.Resolvers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,7 +33,13 @@ namespace TagHelperDemo
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            
+
+            services.AddMvc().AddMvcOptions((options =>
+            {
+                options.OutputFormatters.Clear();
+                options.OutputFormatters.Add(new MessagePackOutputFormatter(ContractlessStandardResolver.Instance));
+            })).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,7 +7,7 @@ using MediatR;
 
 namespace IFrameworkMediaRWebDemo.Commands
 {
-    public class CreatePostRequest: CreatePostModel, IRequest<bool>
+    public class CreatePostRequest: CreatePostModel, IRequest<PostResult>
     {
     }
 }

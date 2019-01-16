@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
 using IFramework.DependencyInjection;
 using IFramework.DependencyInjection.Autofac;
 using IFramework.JsonNet;
 using IFramework.Log4Net;
+using IFrameworkMediaRWebDemo.Services;
 using MediatR;
+using MessagePack.AspNetCoreMvcFormatter;
+using MessagePack.Resolvers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -15,7 +14,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
 namespace IFrameworkMediaRWebDemo
@@ -39,15 +37,20 @@ namespace IFrameworkMediaRWebDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddMediatR();
+
             services.AddMvc()
-                .AddJsonOptions(options =>
+                //.AddJsonOptions(options =>
+                //{
+                //    options.SerializerSettings.DateFormatString = "yyyy/MM/dd HH:mm:ss";
+                //    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+                //})
+                .AddMvcOptions((options =>
                 {
-                    options.SerializerSettings.DateFormatString = "yyyy/MM/dd HH:mm:ss";
-                    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
-                }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
-
-            //services.AddMediatR();
+                    options.OutputFormatters.Clear();
+                    options.OutputFormatters.Add(new MessagePackOutputFormatter(ContractlessStandardResolver.Instance));
+                }))
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             return ObjectProviderFactory.Instance
                 .RegisterComponents(RegisterComponents, ServiceLifetime.Singleton)
@@ -58,7 +61,7 @@ namespace IFrameworkMediaRWebDemo
         private static void RegisterComponents(IObjectProviderBuilder providerBuilder, ServiceLifetime lifetime)
         {
 
-
+            providerBuilder.Register<IDemoService, DemoService>(lifetime);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
