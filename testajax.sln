@@ -207,9 +207,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelperDemo", "TagHelperD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProxyKit", "ProxyKit", "{13FE5228-8E72-4EC4-A65D-69A0C780B06A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyKit1", "ProxyKit1\ProxyKit1.csproj", "{225335C3-644B-413C-A2C2-B38130AF3D32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyKit1", "ProxyKit1\ProxyKit1.csproj", "{225335C3-644B-413C-A2C2-B38130AF3D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyKit2", "ProxyKit2\ProxyKit2.csproj", "{3B2341AA-780B-4B47-9388-2DD87377DBF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyKit2", "ProxyKit2\ProxyKit2.csproj", "{3B2341AA-780B-4B47-9388-2DD87377DBF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
