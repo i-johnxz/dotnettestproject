@@ -1,4 +1,0 @@
-﻿{
-  "environment": "Development",
-  "ConnectString": "Server=(localdb)\\projects;Database=EFGetStarted.NewDb;Integrated Security=true;"
-}
