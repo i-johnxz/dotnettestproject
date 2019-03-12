@@ -263,13 +263,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentThreadsTest", "Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthCheck", "HealthCheck", "{596669CB-8636-4CEE-96C2-C0A898011DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatPulseHealthCheck", "BeatPulseHealthCheck\BeatPulseHealthCheck.csproj", "{6655F259-E17D-4939-A288-C9A1FC6CC8D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeatPulseHealthCheck", "BeatPulseHealthCheck\BeatPulseHealthCheck.csproj", "{6655F259-E17D-4939-A288-C9A1FC6CC8D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signalr", "Signalr", "{51D1E690-3072-4EC6-9196-80A791FEB0C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrJsDemo", "SignalrJsDemo\SignalrJsDemo.csproj", "{3BF50A43-C3D7-45C4-B76D-65CE27456B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrJsDemo", "SignalrJsDemo\SignalrJsDemo.csproj", "{3BF50A43-C3D7-45C4-B76D-65CE27456B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebPack", "SignalRWebPack\SignalRWebPack.csproj", "{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRWebPack", "SignalRWebPack\SignalRWebPack.csproj", "{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StopApplication", "StopApplication", "{16D92E25-6A66-4F89-9A3A-0E81C424D4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopApplicationDemo", "StopApplicationDemo\StopApplicationDemo.csproj", "{F8511F88-BFA4-44EB-8FCE-3E297D927C34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1349,6 +1353,18 @@ Global
 		{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6}.Release|x64.Build.0 = Release|Any CPU
 		{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6}.Release|x86.ActiveCfg = Release|Any CPU
 		{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6}.Release|x86.Build.0 = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|x64.Build.0 = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Debug|x86.Build.0 = Debug|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|x64.ActiveCfg = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|x64.Build.0 = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|x86.ActiveCfg = Release|Any CPU
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1415,6 +1431,7 @@ Global
 		{6655F259-E17D-4939-A288-C9A1FC6CC8D0} = {596669CB-8636-4CEE-96C2-C0A898011DD7}
 		{3BF50A43-C3D7-45C4-B76D-65CE27456B19} = {51D1E690-3072-4EC6-9196-80A791FEB0C0}
 		{B8BA0856-CCB9-4DCE-8FB0-B726AD0EE3F6} = {51D1E690-3072-4EC6-9196-80A791FEB0C0}
+		{F8511F88-BFA4-44EB-8FCE-3E297D927C34} = {16D92E25-6A66-4F89-9A3A-0E81C424D4DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2AE500F-7C54-47DE-AFBA-7B5475FF4924}
