@@ -2517,7 +2517,13 @@
       </e>
       <e p="postmanjson\IdentityServer4.postman_collection.json" t="Include" />
       <e p="ProductTest" t="IncludeRecursive">
+        <e p="ActivityListProduct.cs" t="Include" />
+        <e p="BaseActivity.cs" t="Include" />
+        <e p="BaseActivityList.cs" t="Include" />
+        <e p="BaseProduct.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DiscountActivity.cs" t="Include" />
+        <e p="DiscountActivityList.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -2527,6 +2533,9 @@
         </e>
         <e p="ProductTest.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
+        <e p="ReductionActivity.cs" t="Include" />
+        <e p="ReductionActivityList.cs" t="Include" />
+        <e p="VirtualProduct.cs" t="Include" />
       </e>
       <e p="ProxyKit" t="Include" />
       <e p="ProxyKit1" t="IncludeRecursive">
