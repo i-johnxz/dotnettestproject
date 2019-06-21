@@ -64,6 +64,7 @@ namespace HttpClientDemo2.Controllers
 
         public IActionResult Privacy()
         {
+            
             return View();
         }
 
