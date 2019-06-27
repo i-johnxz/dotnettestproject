@@ -281,6 +281,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashNode", "HashNode\HashNo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductTest", "ProductTest\ProductTest.csproj", "{F36B3904-0D06-43F6-975E-D7A81D0590E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueAspNetCoreSpa", "VueAspNetCoreSpa\VueAspNetCoreSpa.csproj", "{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1407,6 +1409,18 @@ Global
 		{F36B3904-0D06-43F6-975E-D7A81D0590E9}.Release|x64.Build.0 = Release|Any CPU
 		{F36B3904-0D06-43F6-975E-D7A81D0590E9}.Release|x86.ActiveCfg = Release|Any CPU
 		{F36B3904-0D06-43F6-975E-D7A81D0590E9}.Release|x86.Build.0 = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|x64.Build.0 = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Debug|x86.Build.0 = Debug|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|x64.Build.0 = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|x86.ActiveCfg = Release|Any CPU
+		{BFBA8123-8A5A-4EE5-98EC-C920674D6C2B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

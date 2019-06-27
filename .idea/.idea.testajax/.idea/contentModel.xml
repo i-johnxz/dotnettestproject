@@ -4246,6 +4246,65 @@
         <e p="Program.cs" t="Include" />
         <e p="UseSearchableNames.csproj" t="IncludeRecursive" />
       </e>
+      <e p="VueAspNetCoreSpa" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".gitignore" t="Include" />
+          <e p="babel.config.js" t="Include" />
+          <e p="node_modules\@types" t="IncludeRecursive">
+            <e p="events" t="IncludeRecursive" />
+            <e p="minimatch" t="IncludeRecursive" />
+            <e p="node" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules\@vue\cli-plugin-babel" t="IncludeRecursive" />
+          <e p="node_modules\@vue\cli-plugin-eslint" t="IncludeRecursive" />
+          <e p="node_modules\@vue\cli-service" t="IncludeRecursive" />
+          <e p="node_modules\babel-eslint" t="IncludeRecursive" />
+          <e p="node_modules\core-js" t="IncludeRecursive" />
+          <e p="node_modules\eslint" t="IncludeRecursive" />
+          <e p="node_modules\eslint-plugin-vue" t="IncludeRecursive" />
+          <e p="node_modules\vue" t="IncludeRecursive" />
+          <e p="node_modules\vue-template-compiler" t="IncludeRecursive" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="app.vue" t="Include" />
+            <e p="assets" t="Include">
+              <e p="logo.png" t="Include" />
+            </e>
+            <e p="components" t="Include">
+              <e p="HelloWorld.vue" t="Include" />
+            </e>
+            <e p="main.js" t="Include" />
+          </e>
+          <e p="yarn.lock" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="VueAspNetCoreSpa.AssemblyInfo.cs" t="Include" />
+              <e p="VueAspNetCoreSpa.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="VueAspNetCoreSpa.csproj" t="IncludeRecursive" />
+        <e p="VueHelper.cs" t="Include" />
+      </e>
       <e p="VueDemo" t="Include">
         <e p="app.vue" t="Include" />
         <e p="index.html" t="Include" />
