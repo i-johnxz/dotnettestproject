@@ -68,3 +68,5 @@ UCosmic.Www.Mvc.Publish.xml
 
 #Ignore private folder
 /Private/
+/.idea/
+/.vs/

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="014a5326-8d2d-445d-bee9-1253a4b57f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs" afterDir="false" />
+    <list default="true" id="014a5326-8d2d-445d-bee9-1253a4b57f9a" name="Default Changelist" comment="add project">
+      <change afterPath="$PROJECT_DIR$/NewRedisCaching/appSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewRedisCaching/NewRedisCaching.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewRedisCaching/NewRedisCaching.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testajax.sln" beforeDir="false" afterPath="$PROJECT_DIR$/testajax.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +24,9 @@
     <setting file="file://$PROJECT_DIR$/HashNode/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/ActivityListProduct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewRedisCaching/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatternsDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DotNetChannel/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VueAspNetCoreSpa/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HashNode/ConsistentHash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/ReductionActivity.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,9 +58,13 @@
         <option value="$PROJECT_DIR$/ProductTest/DiscountActivityList.cs" />
         <option value="$PROJECT_DIR$/ProductTest/ReductionActivityList.cs" />
         <option value="$PROJECT_DIR$/ProductTest/Program.cs" />
-        <option value="$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs" />
         <option value="$PROJECT_DIR$/VueAspNetCoreSpa/Startup.cs" />
         <option value="$PROJECT_DIR$/VueAspNetCoreSpa/VueAspNetCoreSpa.csproj" />
+        <option value="$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs" />
+        <option value="$PROJECT_DIR$/DesignPatternsDemo/Program.cs" />
+        <option value="$PROJECT_DIR$/DotNetChannel/Program.cs" />
+        <option value="$PROJECT_DIR$/NewRedisCaching/Program.cs" />
+        <option value="$PROJECT_DIR$/NewRedisCaching/appSettings.json" />
       </list>
     </option>
   </component>
@@ -69,38 +77,28 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueAspNetCoreSpa" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueAspNetCoreSpa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -128,7 +126,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.VueAspNetCoreSpa">
+  <component name="RunManager" selected=".NET Project.DotNetChannel">
+    <configuration name="DotNetChannel" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DotNetChannel/bin/Debug/netcoreapp2.2/DotNetChannel.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DotNetChannel" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DotNetChannel/DotNetChannel.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashNode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/HashNode/bin/Debug/netcoreapp2.2/HashNode.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1471,6 +1487,7 @@
       <item itemvalue=".NET Project.HashNode" />
       <item itemvalue=".NET Project.ProductTest" />
       <item itemvalue=".NET Project.VueAspNetCoreSpa" />
+      <item itemvalue=".NET Project.DotNetChannel" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1485,7 +1502,10 @@
       <updated>1561089087490</updated>
       <workItem from="1561089089222" duration="1586000" />
       <workItem from="1561097043762" duration="3647000" />
-      <workItem from="1561624357767" duration="862000" />
+      <workItem from="1561624357767" duration="1095000" />
+      <workItem from="1561701963371" duration="1287000" />
+      <workItem from="1562227827445" duration="2642000" />
+      <workItem from="1562638595444" duration="562000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1561098599470</created>
@@ -1501,11 +1521,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561100679693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add project">
+      <created>1561625298179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561625298179</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add project">
+      <created>1562638666681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562638666681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6095000" />
+    <option name="totallyTimeSpent" value="10819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1517,19 +1551,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32083055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19179542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37199435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3672806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -1538,7 +1572,7 @@
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.47666195" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.47562298" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1778,32 +1812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
-          <folding>
-            <marker date="1561624527373" expanded="true" signature="6:340" ph="..." />
-            <marker date="1561624527373" expanded="true" signature="368:4041" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="404:4039" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="900:3835" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="982:3822" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="1289:1379" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="1589:1991" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2161:2928" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2186:2654" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2328:2632" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2496:2606" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2706:2910" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="2982:3547" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="3007:3273" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="3148:3251" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="3325:3529" ph="{...}" />
-            <marker date="1561624527373" expanded="true" signature="3671:3757" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VueAspNetCoreSpa/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -1834,6 +1842,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <marker date="1561625239613" expanded="true" signature="6:340" ph="..." />
+            <marker date="1561625239613" expanded="true" signature="368:4040" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="404:4038" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="900:3834" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="982:3821" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="1289:1379" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="1589:1990" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2160:2927" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2185:2653" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2327:2631" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2495:2605" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2705:2909" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="2981:3546" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="3006:3272" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="3147:3250" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="3324:3528" ph="{...}" />
+            <marker date="1561625239613" expanded="true" signature="3670:3756" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatternsDemo/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1561702064618" expanded="true" signature="43:184" ph="{...}" />
+            <marker date="1561702064618" expanded="true" signature="63:182" ph="{...}" />
+            <marker date="1561702064618" expanded="true" signature="109:176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotNetChannel/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <marker date="1562229128473" expanded="true" signature="6:110" ph="..." />
+            <marker date="1562229128473" expanded="true" signature="136:2829" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="156:2827" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="202:409" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="258:323" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="420:814" ph="/// channel运行 ... " />
+            <marker date="1562229128473" expanded="true" signature="969:2018" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="1335:1471" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="1563:1808" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="2029:2267" ph="/// 读取数据任务 ... " />
+            <marker date="1562229128473" expanded="true" signature="2369:2821" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="2462:2811" ph="{...}" />
+            <marker date="1562229128473" expanded="true" signature="2564:2797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewRedisCaching/appSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewRedisCaching/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1562638642714" expanded="true" signature="40:181" ph="{...}" />
+            <marker date="1562638642714" expanded="true" signature="60:179" ph="{...}" />
+            <marker date="1562638642714" expanded="true" signature="106:173" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

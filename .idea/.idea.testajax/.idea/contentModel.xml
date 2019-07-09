@@ -864,6 +864,18 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="DesignPatterns" t="Include" />
+      <e p="DesignPatternsDemo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DesignPatternsDemo.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DesignPatternsDemo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="DispatchTest" t="Include" />
       <e p="Disruptor" t="Include" />
       <e p="DisruptorDemo" t="IncludeRecursive">
@@ -884,6 +896,18 @@
       <e p="DockerTest\docker_elk.md" t="Include" />
       <e p="DockerTest\Dockerfile" t="Include" />
       <e p="DockerTet" t="Include" />
+      <e p="DotNetChannel" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DotNetChannel.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DotNetChannel.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="EFCore" t="Include" />
       <e p="EFCoreTPCTest" t="IncludeRecursive">
         <e p="BankAccount.cs" t="Include" />
