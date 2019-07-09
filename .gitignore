@@ -66,7 +66,9 @@ UCosmic.Www.Mvc.Publish.xml
 #Allow chromedriver.exe
 !chromedriver.exe
 
+
+.idea/
+.vs/
+
 #Ignore private folder
 /Private/
-/.idea/
-/.vs/
