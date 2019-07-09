@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="014a5326-8d2d-445d-bee9-1253a4b57f9a" name="Default Changelist" comment="add project">
-      <change afterPath="$PROJECT_DIR$/NewRedisCaching/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRedisCaching/NewRedisCaching.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewRedisCaching/NewRedisCaching.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRedisCaching/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NewRedisCaching/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewRedisCaching/appSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/NewRedisCaching/appSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testajax.sln" beforeDir="false" afterPath="$PROJECT_DIR$/testajax.sln" afterDir="false" />
-    </list>
+    <list default="true" id="014a5326-8d2d-445d-bee9-1253a4b57f9a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,80 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewRedisCaching/Person.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <marker date="1562639491438" expanded="true" signature="40:191" ph="{...}" />
-                <marker date="1562639491438" expanded="true" signature="85:189" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewRedisCaching/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-              <folding>
-                <marker date="1562640155367" expanded="true" signature="6:444" ph="..." />
-                <marker date="1562640155367" expanded="true" signature="471:2984" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="498:2982" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="604:667" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="677:892" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-                <marker date="1562640155367" expanded="true" signature="959:1253" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="1111:1206" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="1441:2976" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="1539:2260" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="1597:1691" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="1784:2065" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="2101:2209" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="2325:2964" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="2434:2806" ph="{...}" />
-                <marker date="1562640155367" expanded="true" signature="2842:2950" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewRedisCaching/Properties/launchSettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewRedisCaching/appsettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewRedisCaching/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <marker date="1562640129317" expanded="true" signature="6:255" ph="..." />
-                <marker date="1562640129317" expanded="true" signature="282:656" ph="{...}" />
-                <marker date="1562640129317" expanded="true" signature="309:654" ph="{...}" />
-                <marker date="1562640129317" expanded="true" signature="362:436" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,9 +77,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1785" />
+    <option name="y" value="160" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -1658,7 +1577,7 @@
       <workItem from="1561701963371" duration="1287000" />
       <workItem from="1562227827445" duration="2642000" />
       <workItem from="1562638595444" duration="562000" />
-      <workItem from="1562639236735" duration="1095000" />
+      <workItem from="1562639236735" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1561098599470</created>
@@ -1688,11 +1607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562638666681</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add project">
+      <created>1562640449940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562640449940</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11914000" />
+    <option name="totallyTimeSpent" value="12046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1704,14 +1630,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1785" y="160" width="1936" height="1066" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2605221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40953413" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40601504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2108,8 +2034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NewRedisCaching/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="-180">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
           <folding>
             <marker date="1562640155367" expanded="true" signature="6:444" ph="..." />
             <marker date="1562640155367" expanded="true" signature="471:2984" ph="{...}" />
