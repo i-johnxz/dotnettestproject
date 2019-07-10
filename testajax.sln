@@ -291,6 +291,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRedisCaching", "NewRedis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{C9FD18E7-D23F-4A56-91B6-21D7A80C4E15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRedisSentinel", "TestRedisSentinel\TestRedisSentinel.csproj", "{21FA3A4C-CD76-476C-8486-D30383263008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1477,6 +1479,18 @@ Global
 		{C9FD18E7-D23F-4A56-91B6-21D7A80C4E15}.Release|x64.Build.0 = Release|Any CPU
 		{C9FD18E7-D23F-4A56-91B6-21D7A80C4E15}.Release|x86.ActiveCfg = Release|Any CPU
 		{C9FD18E7-D23F-4A56-91B6-21D7A80C4E15}.Release|x86.Build.0 = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|x64.Build.0 = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Debug|x86.Build.0 = Debug|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|x64.ActiveCfg = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|x64.Build.0 = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|x86.ActiveCfg = Release|Any CPU
+		{21FA3A4C-CD76-476C-8486-D30383263008}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

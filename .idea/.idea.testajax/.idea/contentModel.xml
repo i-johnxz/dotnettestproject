@@ -807,6 +807,7 @@
         <e p="ContosoUniversity.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="CoursesController.cs" t="Include" />
+          <e p="DepartmentsController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="InstructorsController.cs" t="Include" />
           <e p="StudentsController.cs" t="Include" />
@@ -824,6 +825,10 @@
           <e p="20190709075257_ColumnFirstName.Designer.cs" t="Include" />
           <e p="20190709091131_ComplexDataModel.cs" t="Include" />
           <e p="20190709091131_ComplexDataModel.Designer.cs" t="Include" />
+          <e p="20190710065750_Inheritance.cs" t="Include" />
+          <e p="20190710065750_Inheritance.Designer.cs" t="Include" />
+          <e p="20190710082703_RowVersion.cs" t="Include" />
+          <e p="20190710082703_RowVersion.Designer.cs" t="Include" />
           <e p="SchoolContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -834,7 +839,9 @@
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Instructor.cs" t="Include" />
           <e p="OfficeAssignment.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
           <e p="SchoolViewModels" t="Include">
+            <e p="AssignedCourseData.cs" t="Include" />
             <e p="EnrollmentDateGroup.cs" t="Include" />
             <e p="InstructorIndexData.cs" t="Include" />
           </e>
@@ -858,6 +865,14 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Courses" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="UpdateCourseCredits.cshtml" t="Include" />
+          </e>
+          <e p="Departments" t="Include">
             <e p="Create.cshtml" t="Include" />
             <e p="Delete.cshtml" t="Include" />
             <e p="Details.cshtml" t="Include" />
@@ -3994,6 +4009,18 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="TestQueueConsole.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TestRedisSentinel" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TestRedisSentinel.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TestRedisSentinel.csproj" t="IncludeRecursive" />
       </e>
       <e p="testsign" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
