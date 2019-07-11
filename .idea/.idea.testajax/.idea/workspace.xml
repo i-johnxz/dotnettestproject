@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="014a5326-8d2d-445d-bee9-1253a4b57f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ContosoUniversity/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/AssignedCourseData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/UpdateCourseCredits.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Data/DbInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Data/SchoolContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Course.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/CourseAssignment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Department.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Enrollment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Instructor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/OfficeAssignment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/AssignedCourseData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/CourseViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/EnrollmentDateGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/InstructorIndexData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/StudentVM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/InstructorCoursesPageModel.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContosoUniversityRazorPage/PaginatedList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.testajax/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Controllers/CoursesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Migrations/SchoolContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Migrations/SchoolContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Models/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Models/Department.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testajax.sln" beforeDir="false" afterPath="$PROJECT_DIR$/testajax.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +34,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ContosoUniversity/Data/SchoolContext.cs">
+        <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+            <state relative-caret-position="345">
+              <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
               <folding>
-                <marker date="1562663348876" expanded="true" signature="6:68" ph="..." />
-                <marker date="1562663348876" expanded="true" signature="102:1463" ph="{...}" />
-                <marker date="1562663348876" expanded="true" signature="147:1461" ph="{...}" />
-                <marker date="1562663348876" expanded="true" signature="239:272" ph="{...}" />
-                <marker date="1562663348876" expanded="true" signature="778:1455" ph="{...}" />
+                <marker date="1562835458086" expanded="false" signature="6:288" ph="..." />
+                <marker date="1562835458086" expanded="true" signature="344:2273" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="387:2271" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="493:545" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="766:1681" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="1009:1072" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="1126:1644" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="1743:2265" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="1770:2086" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="1869:2021" ph="{...}" />
+                <marker date="1562835458086" expanded="true" signature="2135:2254" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+              <folding>
+                <marker date="1562835550428" expanded="true" signature="82:120" ph="@..." />
               </folding>
             </state>
           </provider>
@@ -52,6 +71,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>Contoso</find>
       <find>Department</find>
     </findStrings>
   </component>
@@ -59,140 +79,202 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/199C1017-0032-432F-8B9C-92364DAEACFF/6/CommandMap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/CoursesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HashNode/ConsistentHash.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HashNode/NodeInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HashNode/Server.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProductTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HashNode/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Department.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709091131_ComplexDataModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/CourseAssignment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/OfficeAssignment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatternsDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Data/SchoolContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Details.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VueAspNetCoreSpa/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRedisCaching/app.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709075257_ColumnFirstName.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/StudentVM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711083752_RowVersion.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/AssignedCourseData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8246F26C-6C11-487F-9FE9-3C9A8FB2C1BC/95/f66925bf/PageModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/obj/Debug/netcoreapp2.2/Razor/Pages/Instructors/Edit.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRedisCaching/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewRedisCaching/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709074243_InitialCreate.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709074243_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/DepartmentsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/PaginatedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/ReductionActivityList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/BaseActivityList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/DiscountActivityList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/EnrollmentDateGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/ActivityListProduct.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/InstructorIndexData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VueAspNetCoreSpa/VueHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DotNetChannel/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductTest/ReductionActivity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/CourseViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Course.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/InstructorIndexData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Data/SchoolContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190710065750_Inheritance.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190710065750_Inheritance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestRedisSentinel/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/UpdateCourseCredits.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewRedisCaching/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductTest/BaseActivity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductTest/DiscountActivity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductTest/BaseProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductTest/VirtualProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/InstructorCoursesPageModel.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/199C1017-0032-432F-8B9C-92364DAEACFF/6/CommandMap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/AssignedCourseData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HashNode/ConsistentHash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HashNode/NodeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HashNode/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Department.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1168D04A-C065-4774-AE9A-6892182DD916/26/1ddfb3da/SqlDbType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HashNode/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/Department.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Instructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709091131_ComplexDataModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711031314_ColumnFirstName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711030115_InitialCreate.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/CourseAssignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/OfficeAssignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/OfficeAssignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/CourseAssignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatternsDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709075257_ColumnFirstName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711030115_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/PaginatedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709074243_InitialCreate.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/EnrollmentDateGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709074243_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/PaginatedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/468A3C3F-6BB5-4C43-93A1-C302265EEC56/06/4bffc36b/Nullable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/EnrollmentDateGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/InstructorIndexData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversity/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NewRedisCaching/Person.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProductTest/BaseActivity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProductTest/DiscountActivity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProductTest/BaseProduct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ContosoUniversity/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProductTest/VirtualProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Course.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DotNetChannel/Program.cs" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/appSettings.json" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/appsettings.json" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/Person.cs" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/Program.cs" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/Startup.cs" />
-        <option value="$PROJECT_DIR$/NewRedisCaching/NewRedisCaching.csproj" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Startup.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Program.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/ContosoUniversity.csproj" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Students/Details.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/PaginatedList.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Students/Index.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/EnrollmentDateGroup.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Home/About.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/OfficeAssignment.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Course.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Enrollment.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/CourseAssignment.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Data/SchoolContext.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Data/DbInitializer.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Migrations/20190709091131_ComplexDataModel.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/appsettings.json" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Index.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/InstructorIndexData.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/AssignedCourseData.cs" />
-        <option value="$PROJECT_DIR$/TestRedisSentinel/Program.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Person.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Student.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Models/Department.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Controllers/CoursesController.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/UpdateCourseCredits.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Controllers/DepartmentsController.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Departments/Create.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Departments/Delete.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Departments/Details.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Departments/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Departments/Index.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Delete.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/PaginatedList.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/EnrollmentDateGroup.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Instructor.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/OfficeAssignment.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Course.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/CourseAssignment.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Data/SchoolContext.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Program.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Data/DbInitializer.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/ContosoUniversityRazorPage.csproj" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/CourseViewModel.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/InstructorIndexData.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/AssignedCourseData.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/InstructorCoursesPageModel.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/InstructorCoursesPageModel.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Delete.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Department.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml" />
       </list>
     </option>
   </component>
@@ -220,7 +302,6 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -231,79 +312,77 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="20190711083752_RowVersion.cs" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Courses" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Departments" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Departments" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Delete.cshtml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Instructors" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Departments" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Edit.cshtml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="testajax" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ContosoUniversity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Students" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContosoUniversityRazorPage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Departments" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Index.cshtml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml.cs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -321,18 +400,18 @@
   </component>
   <component name="RunManager" selected=".NET Project.ContosoUniversity">
     <configuration name="ContosoUniversity" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/ContosoUniversity/bin/Debug/netcoreapp2.2/ContosoUniversity.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ContosoUniversityRazorPage/bin/Debug/netcoreapp2.2/ContosoUniversityRazorPage.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ContosoUniversity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ContosoUniversityRazorPage" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs>
         <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
-        <env name="ASPNETCORE_URLS" value="http://localhost:25244" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:47129" />
       </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ContosoUniversity/ContosoUniversity.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ContosoUniversityRazorPage/ContosoUniversityRazorPage.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -1756,7 +1835,10 @@
       <workItem from="1562723661815" duration="2311000" />
       <workItem from="1562728231169" duration="2501000" />
       <workItem from="1562741204011" duration="232000" />
-      <workItem from="1562741440202" duration="5627000" />
+      <workItem from="1562741440202" duration="9670000" />
+      <workItem from="1562809968849" duration="8268000" />
+      <workItem from="1562824416633" duration="8295000" />
+      <workItem from="1562833352519" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1561098599470</created>
@@ -1807,11 +1889,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562666096641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add project">
+      <created>1562747302896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562747302896</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34242000" />
+    <option name="totallyTimeSpent" value="57060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1826,16 +1915,16 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12413426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2727757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34777898" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23076923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.44637054" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -1843,12 +1932,12 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.46587217" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.40303358" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.4907909" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.37053087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986681" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
@@ -1914,825 +2003,777 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709075257_ColumnFirstName.cs">
-      <provider editor-type-id="WinFormsEditor" />
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1562813579055" expanded="true" signature="6:259" ph="..." />
+            <marker date="1562813579055" expanded="true" signature="303:1078" ph="{...}" />
+            <marker date="1562813579055" expanded="true" signature="345:1076" ph="{...}" />
+            <marker date="1562813579055" expanded="true" signature="450:502" ph="{...}" />
+            <marker date="1562813579055" expanded="true" signature="607:1070" ph="{...}" />
+            <marker date="1562813579055" expanded="true" signature="871:995" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/EnrollmentDateGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1562813415347" expanded="true" signature="6:58" ph="..." />
+            <marker date="1562813415347" expanded="true" signature="120:308" ph="{...}" />
+            <marker date="1562813415347" expanded="true" signature="159:306" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Students/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding>
+            <marker date="1562813224099" expanded="true" signature="67:104" ph="@..." />
+            <marker date="1562813224099" expanded="true" signature="1313:1937" ph="@..." />
+            <marker date="1562813224099" expanded="true" signature="1350:1937" ph="{...}" />
+            <marker date="1562813224099" expanded="true" signature="1960:2106" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/About.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <marker date="1562813797679" expanded="true" signature="58:111" ph="@..." />
+            <marker date="1562813797679" expanded="true" signature="237:432" ph="@..." />
+            <marker date="1562813797679" expanded="true" signature="273:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711030115_InitialCreate.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1562814075078" expanded="false" signature="28:318" ph="..." />
+            <marker date="1562814075078" expanded="true" signature="367:3188" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="488:3186" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="570:3180" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="999:1252" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="1357:1935" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="2037:2523" ph="{...}" />
+            <marker date="1562814075078" expanded="true" signature="2628:3135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711030115_InitialCreate.cs">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1562814075077" expanded="false" signature="6:107" ph="..." />
+            <marker date="1562814075077" expanded="true" signature="156:3490" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="209:3488" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="285:3160" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="425:642" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="698:786" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="920:1341" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="1397:1480" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="1617:2026" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="2082:2812" ph="{...}" />
+            <marker date="1562814075077" expanded="true" signature="3233:3482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="WinFormsEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711031314_ColumnFirstName.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1562658777602" expanded="true" signature="87:647" ph="{...}" />
-            <marker date="1562658777602" expanded="true" signature="142:645" ph="{...}" />
-            <marker date="1562658777602" expanded="true" signature="218:392" ph="{...}" />
-            <marker date="1562658777602" expanded="true" signature="465:639" ph="{...}" />
+            <marker date="1562814794370" expanded="true" signature="96:1721" ph="{...}" />
+            <marker date="1562814794370" expanded="true" signature="151:1719" ph="{...}" />
+            <marker date="1562814794370" expanded="true" signature="227:929" ph="{...}" />
+            <marker date="1562814794370" expanded="true" signature="1002:1713" ph="{...}" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190709091131_ComplexDataModel.cs">
       <provider editor-type-id="WinFormsEditor" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-          <folding>
-            <marker date="1562663566988" expanded="false" signature="6:107" ph="..." />
-            <marker date="1562663566988" expanded="true" signature="147:8002" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="203:8000" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="279:6418" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="1155:1329" ph="/* migrationBuilder.AddColumn&lt;int&gt;( ... */" />
-            <marker date="1562663566988" expanded="true" signature="1463:1907" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="1963:2048" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="2190:2346" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="2402:3175" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="3311:3829" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="3885:4306" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="4445:4572" ph="/* Default value for FK points to department created above, with ... */" />
-            <marker date="1562663566988" expanded="true" signature="4896:5069" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="5125:5557" ph="{...}" />
-            <marker date="1562663566988" expanded="true" signature="6491:7994" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/199C1017-0032-432F-8B9C-92364DAEACFF/6/CommandMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="171" column="58" selection-start-line="171" selection-start-column="58" selection-end-line="171" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedisSentinel/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1562730569609" expanded="true" signature="89:2460" ph="{...}" />
-            <marker date="1562730569609" expanded="true" signature="135:2454" ph="{...}" />
-            <marker date="1562730569609" expanded="true" signature="186:790" ph="/* ConfigurationOptions sentinelConfig = new ConfigurationOptions(); ... */" />
-            <marker date="1562730569609" expanded="true" signature="803:1426" ph="/* var options = new ConfigurationOptions() ... */" />
-            <marker date="1562730569609" expanded="true" signature="2167:2378" ph="/* var database = sentinelConnection.GetDatabase(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Person.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding>
-            <marker date="1562741626136" expanded="true" signature="6:96" ph="..." />
-            <marker date="1562741626136" expanded="true" signature="132:707" ph="{...}" />
-            <marker date="1562741626136" expanded="true" signature="167:705" ph="{...}" />
-            <marker date="1562741626136" expanded="true" signature="620:699" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Student.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <marker date="1562741648410" expanded="true" signature="6:144" ph="..." />
-            <marker date="1562741648410" expanded="true" signature="180:518" ph="{...}" />
-            <marker date="1562741648410" expanded="true" signature="216:516" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/OfficeAssignment.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <marker date="1562662161893" expanded="true" signature="80:360" ph="{...}" />
-            <marker date="1562662161893" expanded="true" signature="116:358" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Instructor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1562741680595" expanded="true" signature="6:144" ph="..." />
-            <marker date="1562741680595" expanded="true" signature="180:587" ph="{...}" />
-            <marker date="1562741680595" expanded="true" signature="219:585" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Enrollment.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <marker date="1562663081604" expanded="true" signature="80:533" ph="{...}" />
-            <marker date="1562663081604" expanded="true" signature="104:170" ph="{...}" />
-            <marker date="1562663081604" expanded="true" signature="199:531" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Department.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <marker date="1562741745602" expanded="true" signature="6:144" ph="..." />
-            <marker date="1562741745602" expanded="true" signature="180:921" ph="{...}" />
-            <marker date="1562741745602" expanded="true" signature="210:919" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/CourseAssignment.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1562663202924" expanded="true" signature="34:269" ph="{...}" />
-            <marker date="1562663202924" expanded="true" signature="70:267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/Course.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1562662359854" expanded="true" signature="6:130" ph="..." />
-            <marker date="1562662359854" expanded="true" signature="166:738" ph="{...}" />
-            <marker date="1562662359854" expanded="true" signature="192:736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/AssignedCourseData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <marker date="1562725298700" expanded="true" signature="51:232" ph="{...}" />
-            <marker date="1562725298700" expanded="true" signature="89:230" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/InstructorIndexData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <marker date="1562665559453" expanded="true" signature="86:328" ph="{...}" />
-            <marker date="1562665559453" expanded="true" signature="125:326" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190710065750_Inheritance.cs">
-      <provider editor-type-id="WinFormsEditor" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1562741870595" expanded="false" signature="6:61" ph="..." />
-            <marker date="1562741870595" expanded="true" signature="101:652" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="152:650" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="228:436" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="509:644" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Migrations/20190710065750_Inheritance.Designer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <marker date="1562741870595" expanded="false" signature="28:309" ph="..." />
-            <marker date="1562741870595" expanded="true" signature="349:7619" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="466:7617" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="548:7611" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="968:1365" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="1467:1749" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="1845:2689" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="2785:3362" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="3458:4152" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="4254:4520" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="4613:5310" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="5402:5662" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="5764:6274" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="6370:6566" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="6662:7151" ph="{...}" />
-            <marker date="1562741870595" expanded="true" signature="7253:7566" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Models/SchoolViewModels/EnrollmentDateGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1562657358894" expanded="true" signature="6:58" ph="..." />
-            <marker date="1562657358894" expanded="true" signature="111:300" ph="{...}" />
-            <marker date="1562657358894" expanded="true" signature="150:298" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Data/DbInitializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <marker date="1562663428100" expanded="true" signature="6:64" ph="..." />
-            <marker date="1562663428100" expanded="true" signature="98:11921" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="138:11919" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="205:11913" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="227:301" ph="/* context.Database.EnsureCreated(); ... */" />
-            <marker date="1562663428100" expanded="true" signature="341:417" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="472:1666" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="502:622" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="652:769" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="799:915" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="945:1065" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1095:1208" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1238:1356" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1386:1503" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1533:1652" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1712:1781" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1877:2611" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="1910:2025" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2058:2170" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2203:2312" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2345:2455" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2488:2597" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2663:2735" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2831:3751" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="2864:3061" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3094:3288" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3321:3512" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3545:3737" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3803:3875" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3963:5373" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="3992:4164" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="4193:4363" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="4392:4562" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="4591:4763" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="4792:4964" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="4993:5161" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5190:5358" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5417:5485" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5593:6129" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5632:5767" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5806:5938" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="5977:6114" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="6193:6271" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="6379:8289" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="6418:6613" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="6652:6846" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="6885:7084" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="7123:7322" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="7361:7557" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="7596:7793" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="7832:8034" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="8073:8274" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="8354:8433" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="8529:11420" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="8562:8787" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="8824:9058" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="9095:9329" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="9366:9595" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="9632:9865" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="9902:10130" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="10167:10355" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="10392:10621" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="10654:10882" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="10919:11142" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="11179:11406" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="11472:11868" ph="{...}" />
-            <marker date="1562663428100" expanded="true" signature="11770:11854" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/CoursesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="158" column="48" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="48" />
-          <folding>
-            <marker date="1562742373000" expanded="false" signature="6:269" ph="..." />
-            <marker date="1562742373000" expanded="true" signature="310:6178" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="360:6176" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="472:524" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="598:770" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="863:1289" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="901:964" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="1182:1245" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="1359:1453" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="1463:1673" ph="/* POST: Courses/Create ... */" />
-            <marker date="1562742373000" expanded="true" signature="1836:2164" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="1882:2055" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="2251:2699" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="2289:2352" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="2526:2589" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="2709:2919" ph="/* POST: Courses/Edit/5 ... */" />
-            <marker date="1562742373000" expanded="true" signature="3052:4164" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="3090:3153" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="3427:4039" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="3461:3552" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="3595:3969" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="4255:4681" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="4293:4356" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="4574:4637" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="4857:5084" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="5136:5183" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="5281:5621" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="5327:5584" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="5672:5756" ph="{...}" />
-            <marker date="1562742373000" expanded="true" signature="5844:6170" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Create.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <marker date="1562724803207" expanded="true" signature="40:78" ph="@..." />
-            <marker date="1562724803207" expanded="true" signature="1732:1819" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Delete.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <marker date="1562724951941" expanded="true" signature="40:78" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Details.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <marker date="1562742666545" expanded="true" signature="40:79" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Edit.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <marker date="1562742732977" expanded="true" signature="40:76" ph="@..." />
-            <marker date="1562742732977" expanded="true" signature="1702:1789" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <marker date="1562665112836" expanded="true" signature="53:92" ph="@..." />
-            <marker date="1562665112836" expanded="true" signature="655:1302" ph="@..." />
-            <marker date="1562665112836" expanded="true" signature="684:1302" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Courses/UpdateCourseCredits.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Student.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="40" />
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
-            <marker date="1562742549078" expanded="true" signature="0:47" ph="@..." />
-            <marker date="1562742549078" expanded="true" signature="81:481" ph="@..." />
-            <marker date="1562742549078" expanded="true" signature="119:481" ph="{...}" />
-            <marker date="1562742549078" expanded="true" signature="482:599" ph="@..." />
-            <marker date="1562742549078" expanded="true" signature="520:599" ph="{...}" />
+            <marker date="1562814995744" expanded="true" signature="6:144" ph="..." />
+            <marker date="1562814995744" expanded="true" signature="189:1021" ph="{...}" />
+            <marker date="1562814995744" expanded="true" signature="216:1019" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/DepartmentsController.cs">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Instructor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="243" column="9" selection-start-line="243" selection-start-column="9" selection-end-line="243" selection-end-column="9" />
+        <state relative-caret-position="358">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding>
-            <marker date="1562743611948" expanded="false" signature="6:269" ph="..." />
-            <marker date="1562743611948" expanded="true" signature="310:10286" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="364:10284" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="480:545" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="623:787" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="884:1607" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="922:985" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="999:1158" ph="/* var department = await _context.Departments ... */" />
-            <marker date="1562743611948" expanded="true" signature="1496:1559" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="1681:1827" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="1837:2051" ph="/* POST: Departments/Create ... */" />
-            <marker date="1562743611948" expanded="true" signature="2245:2635" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="2291:2468" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="2726:3294" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="2764:2827" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="3064:3127" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="3304:3518" ph="/* POST: Departments/Edit/5 ... */" />
-            <marker date="1562743611948" expanded="true" signature="3646:7834" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="3684:3747" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="3952:4433" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="4741:7651" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="4775:4926" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="4982:7637" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="5260:5467" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="5492:7619" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="5668:5823" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="5898:6059" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="6140:6307" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="6394:6784" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="7953:9314" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="7991:8054" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="8291:8509" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="8363:8459" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="8576:9265" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="9478:10139" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="9504:9845" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="9623:9775" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="9903:10129" ph="{...}" />
-            <marker date="1562743611948" expanded="true" signature="10186:10278" ph="{...}" />
+            <marker date="1562815270328" expanded="true" signature="6:144" ph="..." />
+            <marker date="1562815270328" expanded="true" signature="189:1009" ph="{...}" />
+            <marker date="1562815270328" expanded="true" signature="219:1007" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Create.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/OfficeAssignment.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        <state relative-caret-position="210">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
-            <marker date="1562743675883" expanded="true" signature="44:82" ph="@..." />
-            <marker date="1562743675883" expanded="true" signature="1658:1745" ph="@{...}" />
+            <marker date="1562815427978" expanded="true" signature="89:368" ph="{...}" />
+            <marker date="1562815427978" expanded="true" signature="125:366" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Delete.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Course.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <marker date="1562743747695" expanded="true" signature="44:82" ph="@..." />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Details.cshtml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1168D04A-C065-4774-AE9A-6892182DD916/26/1ddfb3da/SqlDbType.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-          <folding>
-            <marker date="1562743779885" expanded="true" signature="44:83" ph="@..." />
-          </folding>
+        <state relative-caret-position="310">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Edit.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
-          <folding>
-            <marker date="1562743816380" expanded="true" signature="44:80" ph="@..." />
-            <marker date="1562743816380" expanded="true" signature="1850:1937" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Departments/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
-          <folding>
-            <marker date="1562743889599" expanded="true" signature="57:100" ph="@..." />
-            <marker date="1562743889599" expanded="true" signature="702:1549" ph="@..." />
-            <marker date="1562743889599" expanded="true" signature="730:1549" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding>
-            <marker date="1562744090714" expanded="false" signature="6:328" ph="..." />
-            <marker date="1562744090714" expanded="true" signature="369:2504" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="416:2502" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="526:578" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="616:663" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="721:2137" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="887:2015" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="1017:2001" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="1485:1944" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="1564:1922" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="1681:1850" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="2035:2093" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="2177:2224" ph="{...}" />
-            <marker date="1562744090714" expanded="true" signature="2365:2496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/InstructorsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
-          <folding>
-            <marker date="1562745110728" expanded="false" signature="6:318" ph="..." />
-            <marker date="1562745110728" expanded="true" signature="359:10064" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="413:10062" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="529:581" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="681:1996" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="1105:1367" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="1402:1949" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="1738:1866" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="2093:2453" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="2131:2194" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="2342:2405" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="2527:2746" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="2756:2970" ph="/* POST: Instructors/Create ... */" />
-            <marker date="1562745110728" expanded="true" signature="3179:3928" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="3230:3615" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="3377:3601" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="3652:3829" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="4019:4591" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="4057:4120" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="4428:4491" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="4611:4825" ph="/* POST: Instructors/Edit/5 ... */" />
-            <marker date="1562745110728" expanded="true" signature="4960:6610" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="4998:5061" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="5535:6421" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="5643:5743" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="5842:5933" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="5976:6350" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="6714:7074" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="6752:6815" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="6963:7026" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="7254:7808" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="7855:7937" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8048:9364" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8099:8236" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8515:9354" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8605:8938" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8693:8920" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="8959:9340" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="9046:9322" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="9444:10056" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="9716:10000" ph="{...}" />
-            <marker date="1562745110728" expanded="true" signature="9800:9984" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Home/About.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Enrollment.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
-            <marker date="1562657961153" expanded="true" signature="83:138" ph="@..." />
-            <marker date="1562657961153" expanded="true" signature="327:566" ph="@..." />
-            <marker date="1562657961153" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1562816068825" expanded="true" signature="89:518" ph="{...}" />
+            <marker date="1562816068825" expanded="true" signature="114:148" ph="{...}" />
+            <marker date="1562816068825" expanded="true" signature="177:516" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Home/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/CourseAssignment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Data/SchoolContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <marker date="1562816435380" expanded="false" signature="6:77" ph="..." />
+            <marker date="1562816435380" expanded="true" signature="120:1495" ph="{...}" />
+            <marker date="1562816435380" expanded="true" signature="165:1493" ph="{...}" />
+            <marker date="1562816435380" expanded="true" signature="269:302" ph="{...}" />
+            <marker date="1562816435380" expanded="true" signature="816:1487" ph="{...}" />
+            <marker date="1562816435380" expanded="true" signature="1401:1475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <marker date="1562816679420" expanded="false" signature="6:342" ph="..." />
+            <marker date="1562816679420" expanded="true" signature="380:1382" ph="{...}" />
+            <marker date="1562816679420" expanded="true" signature="407:1380" ph="{...}" />
+            <marker date="1562816679420" expanded="true" signature="460:1209" ph="{...}" />
+            <marker date="1562816679420" expanded="true" signature="602:1175" ph="{...}" />
+            <marker date="1562816679420" expanded="true" signature="678:927" ph="{...}" />
+            <marker date="1562816679420" expanded="true" signature="964:1161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Data/DbInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <marker date="1562816683397" expanded="false" signature="6:73" ph="..." />
+            <marker date="1562816683397" expanded="true" signature="116:11941" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="156:11939" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="224:11933" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="247:321" ph="/* context.Database.EnsureCreated(); ... */" />
+            <marker date="1562816683397" expanded="true" signature="361:437" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="492:1686" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="522:642" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="672:789" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="819:935" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="965:1085" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1115:1228" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1258:1376" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1406:1523" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1553:1672" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1732:1801" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1897:2631" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="1930:2045" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2078:2190" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2223:2332" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2365:2475" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2508:2617" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2683:2755" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2851:3771" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="2884:3081" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="3114:3308" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="3341:3532" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="3565:3757" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="3823:3895" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="3983:5393" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="4012:4184" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="4213:4383" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="4412:4582" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="4611:4783" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="4812:4984" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5013:5181" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5210:5378" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5437:5505" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5613:6149" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5652:5787" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5826:5958" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="5997:6134" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="6213:6291" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="6399:8309" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="6438:6633" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="6672:6866" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="6905:7104" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="7143:7342" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="7381:7577" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="7616:7813" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="7852:8054" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="8093:8294" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="8374:8453" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="8549:11440" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="8582:8807" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="8844:9078" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="9115:9349" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="9386:9615" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="9652:9885" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="9922:10150" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="10187:10375" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="10412:10641" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="10674:10902" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="10939:11162" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="11199:11426" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="11492:11888" ph="{...}" />
+            <marker date="1562816683397" expanded="true" signature="11790:11874" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/ContosoUniversityRazorPage.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <marker date="1562641938375" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1562817439422" expanded="false" signature="6:288" ph="..." />
+            <marker date="1562817439422" expanded="true" signature="340:809" ph="{...}" />
+            <marker date="1562817439422" expanded="true" signature="382:807" ph="{...}" />
+            <marker date="1562817439422" expanded="true" signature="487:539" ph="{...}" />
+            <marker date="1562817439422" expanded="true" signature="629:801" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Create.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="903">
+          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
           <folding>
-            <marker date="1562745316772" expanded="true" signature="44:82" ph="@..." />
-            <marker date="1562745316772" expanded="true" signature="2565:2654" ph="@{...}" />
+            <marker date="1562817422119" expanded="true" signature="66:105" ph="@..." />
+            <marker date="1562817422119" expanded="true" signature="648:1302" ph="@..." />
+            <marker date="1562817422119" expanded="true" signature="684:1302" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Delete.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/CourseViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="210">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
-            <marker date="1562665422275" expanded="true" signature="44:82" ph="@..." />
+            <marker date="1562825605270" expanded="true" signature="60:288" ph="{...}" />
+            <marker date="1562825605270" expanded="true" signature="95:286" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Details.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="630">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
-            <marker date="1562665422208" expanded="true" signature="44:83" ph="@..." />
+            <marker date="1562825758158" expanded="true" signature="6:259" ph="..." />
+            <marker date="1562825758158" expanded="true" signature="311:966" ph="{...}" />
+            <marker date="1562825758158" expanded="true" signature="359:964" ph="{...}" />
+            <marker date="1562825758158" expanded="true" signature="461:513" ph="{...}" />
+            <marker date="1562825758158" expanded="true" signature="615:958" ph="{...}" />
+            <marker date="1562825758158" expanded="true" signature="737:932" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Edit.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/IndexSelect.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="614">
+          <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
           <folding>
-            <marker date="1562745605016" expanded="true" signature="44:80" ph="@..." />
-            <marker date="1562745605016" expanded="true" signature="3018:3105" ph="@{...}" />
+            <marker date="1562826005612" expanded="true" signature="71:110" ph="@..." />
+            <marker date="1562826005612" expanded="true" signature="617:1352" ph="@..." />
+            <marker date="1562826005612" expanded="true" signature="654:1352" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Instructors/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/InstructorIndexData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="118" column="61" lean-forward="true" selection-start-line="118" selection-start-column="61" selection-end-line="118" selection-end-column="61" />
+        <state relative-caret-position="210">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding>
-            <marker date="1562746712164" expanded="true" signature="70:113" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="419:1751" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="459:1751" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="554:611" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="971:1094" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="1006:1094" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="1146:1379" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="1215:1361" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="1775:2690" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="1802:2690" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="2024:2675" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="2060:2675" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="2169:2238" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="2692:3205" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="2723:3205" ph="{...}" />
-            <marker date="1562746712164" expanded="true" signature="2904:3190" ph="@..." />
-            <marker date="1562746712164" expanded="true" signature="2944:3190" ph="{...}" />
+            <marker date="1562826047206" expanded="true" signature="95:337" ph="{...}" />
+            <marker date="1562826047206" expanded="true" signature="134:335" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/Error.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml" />
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/DepartmentNamePageModel.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <marker date="1562641838466" expanded="true" signature="22:59" ph="@..." />
-            <marker date="1562641838466" expanded="true" signature="176:289" ph="@..." />
-            <marker date="1562641838466" expanded="true" signature="201:289" ph="{...}" />
+            <marker date="1562828475808" expanded="true" signature="6:179" ph="..." />
+            <marker date="1562828475808" expanded="true" signature="231:802" ph="{...}" />
+            <marker date="1562828475808" expanded="true" signature="286:800" ph="{...}" />
+            <marker date="1562828475808" expanded="true" signature="472:794" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/_CookieConsentPartial.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-33">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <marker date="1562641838472" expanded="true" signature="43:240" ph="@..." />
-            <marker date="1562641838472" expanded="true" signature="242:1025" ph="@..." />
-            <marker date="1562641838472" expanded="true" signature="258:1025" ph="{...}" />
+            <marker date="1562828645756" expanded="false" signature="6:351" ph="..." />
+            <marker date="1562828645756" expanded="true" signature="403:1813" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="460:1811" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="630:682" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="720:931" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="1046:1805" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="1093:1152" ph="{...}" />
+            <marker date="1562828645756" expanded="true" signature="1166:1246" ph="/* _context.Courses.Add(Course); ... */" />
+            <marker date="1562828645756" expanded="true" signature="1477:1674" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Shared/_Layout.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Create.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1101" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Controllers/StudentsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="222" column="9" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
+        <state relative-caret-position="483">
+          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
           <folding>
-            <marker date="1562745215737" expanded="true" signature="6:269" ph="..." />
-            <marker date="1562745215737" expanded="true" signature="310:7555" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="361:7553" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="474:526" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="726:2303" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="1003:1063" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="1080:1154" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="1360:1559" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="1591:2145" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="2397:2870" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="2435:2498" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="2762:2825" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="2941:2988" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="2998:3209" ph="/* POST: Students/Create ... */" />
-            <marker date="1562745215737" expanded="true" signature="3388:4108" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="3414:3676" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="3468:3662" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="3715:4064" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="4196:4503" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="4234:4297" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="4396:4459" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="4513:4724" ph="/* POST: Students/Edit/5 ... */" />
-            <marker date="1562745215737" expanded="true" signature="4857:5913" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="4895:4958" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="5237:5861" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="5271:5422" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="5473:5847" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6037:6676" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6075:6138" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6309:6372" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6427:6631" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6853:7424" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="6961:7045" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="7062:7248" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="7287:7414" ph="{...}" />
-            <marker date="1562745215737" expanded="true" signature="7468:7547" ph="{...}" />
+            <marker date="1562828805052" expanded="true" signature="67:105" ph="@..." />
+            <marker date="1562828805052" expanded="true" signature="1229:1419" ph="@*...*@" />
+            <marker date="1562828805052" expanded="true" signature="2071:2158" ph="@{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Create.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="378">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <marker date="1562644359519" expanded="true" signature="41:79" ph="@..." />
-            <marker date="1562644359519" expanded="true" signature="1363:1450" ph="@{...}" />
+            <marker date="1562829113798" expanded="true" signature="65:101" ph="@..." />
+            <marker date="1562829113798" expanded="true" signature="1749:1836" ph="@{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Delete.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Edit.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="516">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
-            <marker date="1562644359717" expanded="true" signature="41:79" ph="@..." />
+            <marker date="1562829009564" expanded="false" signature="6:330" ph="..." />
+            <marker date="1562829009564" expanded="true" signature="382:2079" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="437:2077" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="605:657" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="786:1243" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="824:887" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="1053:1116" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="1306:1944" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="1353:1412" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="1676:1822" ph="{...}" />
+            <marker date="1562829009564" expanded="true" signature="1987:2071" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Details.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
+        <state relative-caret-position="273">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
-            <marker date="1562644880842" expanded="true" signature="41:80" ph="@..." />
-            <marker date="1562644880842" expanded="true" signature="1100:1492" ph="@..." />
-            <marker date="1562644880842" expanded="true" signature="1140:1492" ph="{...}" />
+            <marker date="1562829251344" expanded="false" signature="6:288" ph="..." />
+            <marker date="1562829251344" expanded="true" signature="340:1678" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="383:1676" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="553:605" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="734:1150" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="772:835" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="1050:1113" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="1213:1670" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="1251:1314" ph="{...}" />
+            <marker date="1562829251344" expanded="true" signature="1485:1613" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Edit.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="315">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <marker date="1562644359599" expanded="true" signature="41:77" ph="@..." />
-            <marker date="1562644359599" expanded="true" signature="1404:1491" ph="@{...}" />
+            <marker date="1562829266896" expanded="false" signature="6:288" ph="..." />
+            <marker date="1562829266896" expanded="true" signature="340:1137" ph="{...}" />
+            <marker date="1562829266896" expanded="true" signature="384:1135" ph="{...}" />
+            <marker date="1562829266896" expanded="true" signature="555:607" ph="{...}" />
+            <marker date="1562829266896" expanded="true" signature="713:1129" ph="{...}" />
+            <marker date="1562829266896" expanded="true" signature="751:814" ph="{...}" />
+            <marker date="1562829266896" expanded="true" signature="1029:1092" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Views/Students/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Details.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="147">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <marker date="1562657176953" expanded="true" signature="56:93" ph="@..." />
-            <marker date="1562657176953" expanded="true" signature="1029:1653" ph="@..." />
-            <marker date="1562657176953" expanded="true" signature="1057:1653" ph="{...}" />
-            <marker date="1562657176953" expanded="true" signature="1676:1810" ph="@..." />
+            <marker date="1562829387354" expanded="true" signature="68:107" ph="@..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContosoUniversity/Data/SchoolContext.cs">
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Courses/Delete.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="231">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <marker date="1562663348876" expanded="true" signature="6:68" ph="..." />
-            <marker date="1562663348876" expanded="true" signature="102:1463" ph="{...}" />
-            <marker date="1562663348876" expanded="true" signature="147:1461" ph="{...}" />
-            <marker date="1562663348876" expanded="true" signature="239:272" ph="{...}" />
-            <marker date="1562663348876" expanded="true" signature="778:1455" ph="{...}" />
+            <marker date="1562829401074" expanded="true" signature="67:105" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/SchoolViewModels/AssignedCourseData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1562829945493" expanded="true" signature="60:241" ph="{...}" />
+            <marker date="1562829945493" expanded="true" signature="98:239" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/InstructorCoursesPageModel.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <marker date="1562830656153" expanded="true" signature="6:233" ph="..." />
+            <marker date="1562830656153" expanded="true" signature="289:2701" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="347:2699" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="558:1175" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="868:1165" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="965:1149" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="1312:2693" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="1363:1500" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="1766:2683" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="1856:2267" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="1944:2249" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="2077:2225" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="2288:2669" ph="{...}" />
+            <marker date="1562830656153" expanded="true" signature="2375:2651" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/obj/Debug/netcoreapp2.2/Razor/Pages/Instructors/Edit.g.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="560" column="70" selection-start-line="560" selection-start-column="70" selection-end-line="560" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding>
+            <marker date="1562827824903" expanded="false" signature="6:346" ph="..." />
+            <marker date="1562827824903" expanded="true" signature="402:2466" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="444:2464" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="549:601" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="822:2458" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="1174:1418" ph="/* .Include(i =&gt; i.CourseAssignments) ... */" />
+            <marker date="1562827824903" expanded="true" signature="1520:1772" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="1807:2448" ph="{...}" />
+            <marker date="1562827824903" expanded="true" signature="2236:2364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1562827527543" expanded="true" signature="82:125" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="465:1924" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="516:1924" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="610:679" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="1087:1222" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="1122:1222" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="1286:1516" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="1359:1494" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="1948:2873" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="1986:2873" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="2210:2858" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="2257:2858" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="2353:2422" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="2874:3333" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="2916:3333" ph="{...}" />
+            <marker date="1562827527543" expanded="true" signature="3097:3318" ph="@..." />
+            <marker date="1562827527543" expanded="true" signature="3148:3318" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <marker date="1562832310097" expanded="true" signature="68:104" ph="@..." />
+            <marker date="1562832310097" expanded="true" signature="3092:3179" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Edit.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <marker date="1562831700098" expanded="false" signature="6:330" ph="..." />
+            <marker date="1562831700098" expanded="true" signature="386:2787" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="444:2785" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="548:600" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="737:1305" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="775:838" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="1143:1206" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="1394:2650" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="1441:1500" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="2018:2446" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="2126:2226" ph="{...}" />
+            <marker date="1562831700098" expanded="true" signature="2697:2779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding>
+            <marker date="1562832599125" expanded="false" signature="6:293" ph="..." />
+            <marker date="1562832599125" expanded="true" signature="349:2236" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="409:2234" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="579:631" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="669:899" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1054:2228" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1101:1160" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1265:1692" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1415:1678" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1513:1589" ph="{...}" />
+            <marker date="1562832599125" expanded="true" signature="1935:2125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <marker date="1562833632032" expanded="true" signature="71:109" ph="@..." />
+            <marker date="1562833632032" expanded="true" signature="2940:3029" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Instructors/Delete.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <marker date="1562833752456" expanded="false" signature="6:288" ph="..." />
+            <marker date="1562833752456" expanded="true" signature="344:1689" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="387:1687" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="557:609" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="746:1075" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="784:847" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="975:1038" ph="{...}" />
+            <marker date="1562833752456" expanded="true" signature="1138:1681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Models/Department.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <marker date="1562834208865" expanded="false" signature="6:163" ph="..." />
+            <marker date="1562834208865" expanded="true" signature="208:956" ph="{...}" />
+            <marker date="1562834208865" expanded="true" signature="238:954" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Migrations/20190711083752_RowVersion.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <marker date="1562834272940" expanded="false" signature="28:318" ph="..." />
+            <marker date="1562834272940" expanded="true" signature="367:7777" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="482:7775" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="564:7769" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="993:1390" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="1501:1783" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="1888:2732" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="2837:3414" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="3519:4213" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="4324:4590" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="4692:5351" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="5452:5721" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="5832:6360" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="6465:6670" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="6775:7282" ph="{...}" />
+            <marker date="1562834272940" expanded="true" signature="7393:7724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <marker date="1562834410445" expanded="true" signature="70:113" ph="@..." />
+            <marker date="1562834410445" expanded="true" signature="851:1705" ph="@..." />
+            <marker date="1562834410445" expanded="true" signature="891:1705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <marker date="1562835166474" expanded="true" signature="69:105" ph="@..." />
+            <marker date="1562835166474" expanded="true" signature="2060:2147" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Edit.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+          <folding>
+            <marker date="1562835033785" expanded="false" signature="6:375" ph="..." />
+            <marker date="1562835033785" expanded="true" signature="431:5465" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="472:5463" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="576:628" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="823:1274" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="1067:1130" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="1336:3367" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="1383:1442" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="1664:1742" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="2076:3192" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="2110:2255" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="2311:3178" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="2589:2867" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="3424:3794" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="3921:5318" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="3983:4127" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="4184:4334" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="4397:4553" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="4634:4919" ph="{...}" />
+            <marker date="1562835033785" expanded="true" signature="5365:5457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <marker date="1562835550428" expanded="true" signature="82:120" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContosoUniversityRazorPage/Pages/Departments/Delete.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <marker date="1562835458086" expanded="false" signature="6:288" ph="..." />
+            <marker date="1562835458086" expanded="true" signature="344:2273" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="387:2271" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="493:545" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="766:1681" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="1009:1072" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="1126:1644" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="1743:2265" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="1770:2086" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="1869:2021" ph="{...}" />
+            <marker date="1562835458086" expanded="true" signature="2135:2254" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -968,6 +968,189 @@
           </e>
         </e>
       </e>
+      <e p="ContosoUniversityRazorPage" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContosoUniversityRazorPage.csproj" t="IncludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="DbInitializer.cs" t="Include" />
+          <e p="SchoolContext.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190711030115_InitialCreate.cs" t="Include" />
+          <e p="20190711030115_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190711031314_ColumnFirstName.cs" t="Include" />
+          <e p="20190711031314_ColumnFirstName.Designer.cs" t="Include" />
+          <e p="20190711034518_ComplexDataModel.cs" t="Include" />
+          <e p="20190711034518_ComplexDataModel.Designer.cs" t="Include" />
+          <e p="20190711083752_RowVersion.cs" t="Include" />
+          <e p="20190711083752_RowVersion.Designer.cs" t="Include" />
+          <e p="SchoolContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Course.cs" t="Include" />
+          <e p="CourseAssignment.cs" t="Include" />
+          <e p="Department.cs" t="Include" />
+          <e p="Enrollment.cs" t="Include" />
+          <e p="Instructor.cs" t="Include" />
+          <e p="OfficeAssignment.cs" t="Include" />
+          <e p="SchoolViewModels" t="Include">
+            <e p="AssignedCourseData.cs" t="Include" />
+            <e p="CourseViewModel.cs" t="Include" />
+            <e p="EnrollmentDateGroup.cs" t="Include" />
+            <e p="InstructorIndexData.cs" t="Include" />
+          </e>
+          <e p="Student.cs" t="Include" />
+          <e p="StudentVM.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ContosoUniversityRazorPage.AssemblyInfo.cs" t="Include" />
+              <e p="ContosoUniversityRazorPage.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="About.cshtml" t="Include" />
+          <e p="About.cshtml.cs" t="Include" />
+          <e p="Courses" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Create.cshtml.cs" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Delete.cshtml.cs" t="Include" />
+            <e p="DepartmentNamePageModel.cshtml.cs" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Details.cshtml.cs" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Edit.cshtml.cs" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+            <e p="IndexSelect.cshtml" t="Include" />
+            <e p="IndexSelect.cshtml.cs" t="Include" />
+          </e>
+          <e p="Departments" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Create.cshtml.cs" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Delete.cshtml.cs" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Details.cshtml.cs" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Edit.cshtml.cs" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+          </e>
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Index.cshtml.cs" t="Include" />
+          <e p="Instructors" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Create.cshtml.cs" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Delete.cshtml.cs" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Details.cshtml.cs" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Edit.cshtml.cs" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+            <e p="InstructorCoursesPageModel.cshtml.cs" t="Include" />
+          </e>
+          <e p="Privacy.cshtml" t="Include" />
+          <e p="Privacy.cshtml.cs" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="Students" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Create.cshtml.cs" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Delete.cshtml.cs" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Details.cshtml.cs" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Edit.cshtml.cs" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PaginatedList.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="CorrelationId" t="Include" />
       <e p="CorrelationIdWebApi2" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
