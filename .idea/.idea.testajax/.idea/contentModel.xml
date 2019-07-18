@@ -1087,6 +1087,13 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Repositories" t="Include">
+          <e p="BaseRepository.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="IStudentRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="StudentRepository.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
